@@ -764,7 +764,7 @@ def main():
     Função principal para executar o processamento do vídeo.
     """
     #video_path_input = 'grabacion_prueba.avi' # Assegure-se de que este arquivo existe no mesmo diretório
-    video_path_input = 'grabacion_1753302530.avi'
+    video_path_input = 'video_prueba.avi'
     #video_path_input = 'gravacao_1754176523.avi'
     output_video_filename = 'video_pupila_segmentada_con_filtros.avi' # Nombre de salida actualizado
     output_video_path = os.path.join(os.getcwd(), output_video_filename)
