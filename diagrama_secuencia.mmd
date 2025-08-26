@@ -1,0 +1,53 @@
+sequenceDiagram
+    participant P as Programa Principal
+    participant init as init_camera_and_serial()
+    participant get_frame as get_camera_frame_and_trigger()
+    participant ser as Arduino (ser)
+    participant cap as Cámara (cap)
+    participant cv2 as OpenCV (cv2)
+    participant writer as VideoWriter
+
+    P->>init: (llamada)
+    activate P
+    init->>init: get_ps3_eye_camera_id()
+    init->>cap: cv2.VideoCapture()
+    init->>ser: serial.Serial()
+    init->>P: ready
+    
+    loop while True
+        P->>get_frame: (llamada)
+        get_frame->>cap: cap.read()
+        get_frame->>ser: 'B' o 'D'
+        get_frame-->>P: ret, frame
+        
+        P->>cv2: cv2.imshow('Todos los Frames', frame)
+        
+        alt Frame Par
+            P->>cv2: cv2.imshow('Pupila Brillante', frame)
+            P->>P: last_even_frame = frame.copy()
+            opt Si last_odd_frame existe
+                P->>cv2: cv2.imshow('Pupila Oscura', last_odd_frame)
+            end
+        else Frame Impar
+            P->>cv2: cv2.imshow('Pupila Oscura', frame)
+            P->>P: last_odd_frame = frame.copy()
+            opt Si last_even_frame existe
+                P->>cv2: cv2.imshow('Pupila Brillante', last_even_frame)
+            end
+        end
+        
+        opt Si grabación activa
+            P->>writer: writer_all.write(frame)
+            alt Frame Par
+                P->>writer: writer_even.write(frame)
+            else Frame Impar
+                P->>writer: writer_odd.write(frame)
+            end
+        end
+        
+        opt Si 'q' es presionado
+            P->>P: break
+        end
+    end
+    deactivate P
+    P->>P: cleanup()

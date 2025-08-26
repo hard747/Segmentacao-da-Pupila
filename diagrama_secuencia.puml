@@ -1,0 +1,29 @@
+@startuml
+participant main as main()
+participant init_cam as init_camera_and_serial()
+participant detect_band as detect_illumination_band()
+participant arduino as Arduino (ser)
+participant camera as Camera (cap)
+participant cv2 as OpenCV (cv2)
+
+main -> init_cam: (llamada)
+init_cam -> arduino: M<periodo_inicial>
+init_cam -> camera: (abrir)
+activate main
+loop while True
+    main -> camera: cap.read()
+    main -> cv2: cv2.cvtColor()
+    main -> detect_band: (llamada)
+    detect_band --> main: D_band
+    alt CALIBRATION_STATE_FINE_TUNING
+        main -> arduino: M<periodo_ajustado>
+    else CALIBRATION_STATE_SHIFTING_BAND
+        main -> arduino: M<periodo_con_bias>
+        loop espera que la banda desaparezca
+            detect_band --> main: None
+        end
+    end
+end
+deactivate main
+main -> main: cleanup()
+@enduml
