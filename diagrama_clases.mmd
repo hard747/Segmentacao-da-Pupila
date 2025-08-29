@@ -1,0 +1,80 @@
+classDiagram
+    class GerenciadorDispositivos {
+        + PS3_EYE_VENDOR_ID
+        + PS3_EYE_MODEL_ID
+        + FPS_ALVO
+        + PORTA_ARDUINO
+        + TAXA_BAUD
+        + TEMPO_ESPERA_ARDUINO_SEG
+        + DURACAO_ESTROBE_INICIAL_US
+        + PRE_ATRASO_ESTROBE_INICIAL_US
+        - captura
+        - serial
+        - largura_frame
+        - altura_frame
+        + obter_id_camera_ps3_eye()
+        + iniciar_camera_e_serial()
+        + enviar_comando(cmd)
+        + liberar()
+    }
+
+    class DetectorFaixa {
+        + tamanho_kernel
+        + limiar_contraste
+        - kernel
+        + detectar_faixa_iluminacao(frame_imagem, estado, estado_movimento)
+    }
+
+    class ControladorSincronizacao {
+        + PERIODO_MESTRE_INICIAL_US
+        + PASSO_AJUSTE_PERIODO_US
+        + LIMIAR_CONVERGENCIA_PX
+        + COMPRIMENTO_HISTORICO_FAIXA
+        + VIÉS_PARA_MOVIMENTO_US
+        + MAX_TENTATIVAS_MOVIMENTO
+        + DURACAO_SINCRONIZACAO_GROSSA_SEG
+        + MIN_FRAMES_PARA_SINCRONIZACAO_GROSSA
+        + ESTADO_SINCRONIZACAO_INICIAL
+        + ESTADO_SINCRONIZACAO_GROSSA
+        + ESTADO_SINCRONIZACAO_AJUSTE_FINO
+        + ESTADO_SINCRONIZACAO_PAUSADO
+        + ESTADO_SINCRONIZACAO_MOVENDO_FAIXA
+        + ESTADO_SINCRONIZACAO_ESTAVEL
+        + ESTADO_SINCRONIZACAO_ERRO
+        + ESTADO_SINCRONIZACAO_VERIFICACAO_DETECCAO
+        - gerenciador_dispositivos
+        - detector_faixa
+        - pular_sincronizacao_grossa
+        - modo_visual_depuracao
+        - pausar_antes_etapa_3
+        - estado_sincronizacao_atual
+        - periodo_mestre_atual_us_arduino
+        - historico_faixa
+        - contador_sem_deteccao_faixa
+        - contador_frames_sincronizacao_grossa
+        - tempo_inicio_sincronizacao_grossa
+        - periodo_estavel_us
+        - contador_tentativas_movimento
+        - faixa_desapareceu
+        - tempo_inicio_sincronizacao
+        - esta_gravando
+        - tempo_inicio_gravacao
+        - duracao_gravacao_seg
+        - escritor_video
+        - contador_frames
+        - contador_frames_pares_para_fps
+        - contador_frames_impares_para_fps
+        - ultimo_tempo_fps_par
+        - ultimo_tempo_fps_impar
+        - fps_par_exibicao
+        - fps_impar_exibicao
+        + executar()
+        + lidar_com_comando_manual(linha)
+        + iniciar_gravacao()
+        + processar_estado(frame_cinza, frame)
+        + exibir_frames(frame, frame_para_par_impar)
+        + exibir_info_estado(frame)
+    }
+
+    ControladorSincronizacao *-- GerenciadorDispositivos
+    ControladorSincronizacao *-- DetectorFaixa
