@@ -1,0 +1,11 @@
+graph TD
+    A[Controlador de Sincronización]
+    B[Gerenciador de Dispositivos]
+    C[Detector de Banda]
+    D[Cámara PS3 Eye]
+    E[Arduino]
+
+    A -- "usa" --> B
+    A -- "usa" --> C
+    B -- "envía comandos seriales" --> E
+    D -- "transmite datos de video" --> B

@@ -1,53 +1,57 @@
 sequenceDiagram
-    participant P as Programa Principal
-    participant init as init_camera_and_serial()
-    participant get_frame as get_camera_frame_and_trigger()
-    participant ser as Arduino (ser)
-    participant cap as Cámara (cap)
-    participant cv2 as OpenCV (cv2)
-    participant writer as VideoWriter
+    participant U as Usuário
+    participant CS as ControladorSincronizacao
+    participant GD as GerenciadorDispositivos
+    participant DF as DetectorFaixa
+    participant CP3E as Câmera PS3 Eye
+    participant A as Arduino
 
-    P->>init: (llamada)
-    activate P
-    init->>init: get_ps3_eye_camera_id()
-    init->>cap: cv2.VideoCapture()
-    init->>ser: serial.Serial()
-    init->>P: ready
+    activate U
+    U->>CS: iniciar programa
+    deactivate U
+
+    activate CS
+    CS->>GD: iniciar_camera_e_serial()
+    activate GD
+    GD->>CP3E: abrir()
+    GD->>A: iniciar_serial()
+    CP3E-->>GD: ok
+    A-->>GD: ok
+    GD-->>CS: ok
+    deactivate GD
     
-    loop while True
-        P->>get_frame: (llamada)
-        get_frame->>cap: cap.read()
-        get_frame->>ser: 'B' o 'D'
-        get_frame-->>P: ret, frame
+    loop Loop Principal (Processamento de Frames)
+        activate CS
+        CS->>GD: capturar_frame()
+        activate GD
+        GD->>CP3E: read()
+        CP3E-->>GD: frame
+        GD-->>CS: frame
+        deactivate GD
         
-        P->>cv2: cv2.imshow('Todos los Frames', frame)
+        CS->>DF: detectar_faixa_iluminacao(frame)
+        activate DF
+        DF-->>CS: resultado_detecção
+        deactivate DF
         
-        alt Frame Par
-            P->>cv2: cv2.imshow('Pupila Brillante', frame)
-            P->>P: last_even_frame = frame.copy()
-            opt Si last_odd_frame existe
-                P->>cv2: cv2.imshow('Pupila Oscura', last_odd_frame)
-            end
-        else Frame Impar
-            P->>cv2: cv2.imshow('Pupila Oscura', frame)
-            P->>P: last_odd_frame = frame.copy()
-            opt Si last_even_frame existe
-                P->>cv2: cv2.imshow('Pupila Brillante', last_even_frame)
-            end
+        alt Se for necessário ajustar período
+            CS->>GD: enviar_comando("M...")
+            activate GD
+            GD->>A: enviar_comando_serial()
+            A-->>GD: ok
+            deactivate GD
         end
         
-        opt Si grabación activa
-            P->>writer: writer_all.write(frame)
-            alt Frame Par
-                P->>writer: writer_even.write(frame)
-            else Frame Impar
-                P->>writer: writer_odd.write(frame)
-            end
-        end
-        
-        opt Si 'q' es presionado
-            P->>P: break
-        end
+        CS->>CS: processar_estado()
     end
-    deactivate P
-    P->>P: cleanup()
+    
+    activate U
+    U->>CS: "q"
+    deactivate U
+    
+    CS->>GD: liberar()
+    activate GD
+    GD->>CP3E: liberar()
+    GD->>A: fechar_serial()
+    deactivate GD
+    deactivate CS

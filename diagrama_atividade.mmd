@@ -1,0 +1,38 @@
+graph TD
+    subgraph Sincronizacao
+    A((Inicio)) --> B[Inicializar Camera e Serial]
+    B --> C{Pular Sincronizacao Grossa?}
+    C -->|Nao| D[Sincronizacao Grossa Contagem de FPS]
+    D --> E{Tempo decorrido?}
+    E -->|Nao| D
+    E -->|Sim| F[Verificacao de Deteccao]
+    C -->|Sim| F
+    
+    F --> G{Faixa detectada?}
+    G -->|Nao| F
+    G -->|Sim| H{Pressionar ESPACO?}
+    H -->|Nao| F
+    H -->|Sim| I[Ajuste Fino Etapa 2]
+
+    I --> J{Faixa estavel?}
+    J -->|Nao| I
+    J -->|Sim| K{Pausa de debug?}
+    K -->|Sim| L[Pausado - Esperar por ESPACO]
+    L --> M{Pressionar ESPACO?}
+    M -->|Sim| N[Movendo Faixa Etapa 3]
+    K -->|Nao| N
+    
+    N --> O{Faixa desapareceu?}
+    O -->|Nao| N
+    O -->|Sim| P[Sincronizado e Estavel]
+
+    O -->|Falha| Q((Fim - Erro))
+    J -->|Falha| Q
+    G -->|Falha| Q
+
+    style Q fill:#f9f,stroke:#333,stroke-width:4px
+    style A fill:#9f9,stroke:#333,stroke-width:4px
+
+    end
+    
+    L -->|Nao| L
