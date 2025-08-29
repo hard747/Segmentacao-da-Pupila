@@ -1,1570 +1,2143 @@
 Dados dos Centros de Pupilas Segmentadas:
+Frame 2:
+     Tipo: brilhante, Centro (x,y): (445, 234)
+     Tipo: escura, Centro (x,y): (447, 233)
+
+Frame 3:
+     Tipo: brilhante, Centro (x,y): (445, 234)
+     Tipo: escura, Centro (x,y): (448, 233)
+
 Frame 4:
-     Tipo: brilhante, Centro (x,y): (317, 480)
-     Tipo: brilhante, Centro (x,y): (369, 477)
-     Tipo: brilhante, Centro (x,y): (499, 420)
-     Tipo: brilhante, Centro (x,y): (430, 386)
-     Tipo: brilhante, Centro (x,y): (547, 216)
-     Tipo: brilhante, Centro (x,y): (485, 211)
-     Tipo: brilhante, Centro (x,y): (164, 198)
-     Tipo: brilhante, Centro (x,y): (530, 166)
-     Tipo: escura, Centro (x,y): (405, 451)
-     Tipo: escura, Centro (x,y): (164, 200)
-     Tipo: escura, Centro (x,y): (530, 169)
-     Tipo: escura, Centro (x,y): (554, 150)
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (448, 233)
 
 Frame 5:
-     Tipo: brilhante, Centro (x,y): (165, 200)
-     Tipo: brilhante, Centro (x,y): (531, 170)
-     Tipo: escura, Centro (x,y): (164, 200)
-     Tipo: escura, Centro (x,y): (530, 169)
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (450, 231)
 
 Frame 6:
-     Tipo: brilhante, Centro (x,y): (165, 200)
-     Tipo: brilhante, Centro (x,y): (531, 170)
-     Tipo: escura, Centro (x,y): (165, 200)
-     Tipo: escura, Centro (x,y): (531, 168)
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (449, 232)
 
 Frame 7:
-     Tipo: brilhante, Centro (x,y): (165, 199)
-     Tipo: brilhante, Centro (x,y): (532, 168)
-     Tipo: escura, Centro (x,y): (165, 200)
-     Tipo: escura, Centro (x,y): (530, 168)
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (448, 232)
 
 Frame 8:
-     Tipo: brilhante, Centro (x,y): (165, 199)
-     Tipo: brilhante, Centro (x,y): (532, 168)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
+     Tipo: brilhante, Centro (x,y): (446, 235)
+     Tipo: escura, Centro (x,y): (447, 233)
 
 Frame 9:
-     Tipo: brilhante, Centro (x,y): (166, 197)
-     Tipo: brilhante, Centro (x,y): (532, 167)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
+     Tipo: brilhante, Centro (x,y): (446, 235)
+     Tipo: escura, Centro (x,y): (448, 233)
 
 Frame 10:
-     Tipo: brilhante, Centro (x,y): (166, 197)
-     Tipo: brilhante, Centro (x,y): (532, 167)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (531, 165)
+     Tipo: brilhante, Centro (x,y): (446, 236)
+     Tipo: escura, Centro (x,y): (447, 235)
 
 Frame 11:
-     Tipo: brilhante, Centro (x,y): (167, 198)
-     Tipo: brilhante, Centro (x,y): (533, 167)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
+     Tipo: brilhante, Centro (x,y): (446, 236)
+     Tipo: escura, Centro (x,y): (447, 234)
+
+Frame 12:
+     Tipo: brilhante, Centro (x,y): (446, 235)
+     Tipo: escura, Centro (x,y): (448, 232)
+
+Frame 13:
+     Tipo: brilhante, Centro (x,y): (446, 235)
+     Tipo: escura, Centro (x,y): (449, 231)
 
 Frame 14:
-     Tipo: brilhante, Centro (x,y): (171, 202)
-     Tipo: brilhante, Centro (x,y): (537, 171)
-     Tipo: escura, Centro (x,y): (171, 201)
-     Tipo: escura, Centro (x,y): (537, 171)
+     Tipo: brilhante, Centro (x,y): (447, 235)
+     Tipo: escura, Centro (x,y): (449, 232)
 
 Frame 15:
-     Tipo: brilhante, Centro (x,y): (172, 202)
-     Tipo: brilhante, Centro (x,y): (538, 172)
-     Tipo: escura, Centro (x,y): (171, 201)
-     Tipo: escura, Centro (x,y): (537, 170)
+     Tipo: brilhante, Centro (x,y): (447, 235)
+     Tipo: escura, Centro (x,y): (450, 234)
 
 Frame 16:
-     Tipo: brilhante, Centro (x,y): (172, 202)
-     Tipo: brilhante, Centro (x,y): (538, 172)
-     Tipo: escura, Centro (x,y): (172, 201)
-     Tipo: escura, Centro (x,y): (538, 170)
+     Tipo: brilhante, Centro (x,y): (449, 235)
+     Tipo: escura, Centro (x,y): (451, 232)
 
 Frame 17:
-     Tipo: brilhante, Centro (x,y): (190, 225)
-     Tipo: brilhante, Centro (x,y): (170, 199)
-     Tipo: brilhante, Centro (x,y): (534, 169)
-     Tipo: escura, Centro (x,y): (172, 201)
-     Tipo: escura, Centro (x,y): (538, 170)
+     Tipo: brilhante, Centro (x,y): (449, 235)
+     Tipo: escura, Centro (x,y): (452, 231)
+
+Frame 18:
+     Tipo: brilhante, Centro (x,y): (450, 234)
+     Tipo: escura, Centro (x,y): (451, 232)
+
+Frame 19:
+     Tipo: brilhante, Centro (x,y): (450, 234)
+     Tipo: escura, Centro (x,y): (451, 233)
 
 Frame 20:
-     Tipo: brilhante, Centro (x,y): (164, 200)
-     Tipo: brilhante, Centro (x,y): (530, 167)
-     Tipo: escura, Centro (x,y): (165, 199)
-     Tipo: escura, Centro (x,y): (528, 167)
+     Tipo: brilhante, Centro (x,y): (451, 234)
+     Tipo: escura, Centro (x,y): (451, 233)
 
 Frame 21:
-     Tipo: brilhante, Centro (x,y): (161, 203)
-     Tipo: brilhante, Centro (x,y): (527, 168)
-     Tipo: escura, Centro (x,y): (165, 199)
-     Tipo: escura, Centro (x,y): (528, 167)
+     Tipo: brilhante, Centro (x,y): (451, 234)
+     Tipo: escura, Centro (x,y): (452, 233)
 
 Frame 22:
-     Tipo: brilhante, Centro (x,y): (161, 203)
-     Tipo: brilhante, Centro (x,y): (527, 168)
-     Tipo: escura, Centro (x,y): (161, 201)
-     Tipo: escura, Centro (x,y): (526, 168)
+     Tipo: brilhante, Centro (x,y): (450, 234)
+     Tipo: escura, Centro (x,y): (452, 234)
 
 Frame 23:
-     Tipo: brilhante, Centro (x,y): (527, 168)
-     Tipo: escura, Centro (x,y): (161, 201)
-     Tipo: escura, Centro (x,y): (526, 168)
+     Tipo: brilhante, Centro (x,y): (450, 234)
+     Tipo: escura, Centro (x,y): (451, 234)
+
+Frame 24:
+     Tipo: brilhante, Centro (x,y): (450, 233)
+     Tipo: escura, Centro (x,y): (452, 232)
+
+Frame 25:
+     Tipo: brilhante, Centro (x,y): (450, 233)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 26:
+     Tipo: brilhante, Centro (x,y): (449, 231)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 27:
+     Tipo: brilhante, Centro (x,y): (449, 231)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 28:
+     Tipo: brilhante, Centro (x,y): (449, 232)
+     Tipo: escura, Centro (x,y): (450, 229)
+
+Frame 29:
+     Tipo: brilhante, Centro (x,y): (449, 232)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 30:
+     Tipo: brilhante, Centro (x,y): (448, 231)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 31:
+     Tipo: brilhante, Centro (x,y): (449, 231)
+     Tipo: escura, Centro (x,y): (450, 229)
+
+Frame 32:
+     Tipo: brilhante, Centro (x,y): (447, 232)
+     Tipo: escura, Centro (x,y): (450, 229)
+
+Frame 33:
+     Tipo: brilhante, Centro (x,y): (447, 232)
+     Tipo: escura, Centro (x,y): (448, 231)
+
+Frame 34:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (448, 231)
+
+Frame 35:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 36:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 230)
+
+Frame 37:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 38:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (446, 230)
+
+Frame 39:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 40:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (444, 230)
+
+Frame 41:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (446, 230)
+
+Frame 42:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (446, 229)
+
+Frame 43:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (444, 231)
+
+Frame 44:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (444, 231)
+
+Frame 45:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 46:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 47:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (444, 230)
+
+Frame 48:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (443, 232)
+
+Frame 49:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (442, 230)
 
 Frame 50:
-     Tipo: brilhante, Centro (x,y): (158, 204)
-     Tipo: brilhante, Centro (x,y): (523, 171)
-     Tipo: escura, Centro (x,y): (158, 204)
-     Tipo: escura, Centro (x,y): (524, 171)
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (444, 229)
 
 Frame 51:
-     Tipo: brilhante, Centro (x,y): (158, 205)
-     Tipo: brilhante, Centro (x,y): (523, 172)
-     Tipo: escura, Centro (x,y): (158, 204)
-     Tipo: escura, Centro (x,y): (524, 171)
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (442, 231)
 
 Frame 52:
-     Tipo: brilhante, Centro (x,y): (158, 204)
-     Tipo: brilhante, Centro (x,y): (523, 172)
-     Tipo: escura, Centro (x,y): (158, 205)
-     Tipo: escura, Centro (x,y): (523, 174)
+     Tipo: brilhante, Centro (x,y): (442, 232)
+     Tipo: escura, Centro (x,y): (442, 231)
 
 Frame 53:
-     Tipo: brilhante, Centro (x,y): (196, 231)
-     Tipo: brilhante, Centro (x,y): (167, 204)
-     Tipo: brilhante, Centro (x,y): (533, 172)
-     Tipo: escura, Centro (x,y): (159, 203)
-     Tipo: escura, Centro (x,y): (523, 174)
+     Tipo: brilhante, Centro (x,y): (442, 232)
+     Tipo: escura, Centro (x,y): (443, 230)
+
+Frame 54:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (443, 230)
+
+Frame 55:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (445, 229)
+
+Frame 56:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (445, 229)
+
+Frame 57:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 58:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 59:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 60:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 61:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (446, 230)
+
+Frame 62:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 229)
+
+Frame 63:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 64:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 65:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 232)
+
+Frame 66:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (447, 232)
+
+Frame 67:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (445, 231)
+
+Frame 68:
+     Tipo: brilhante, Centro (x,y): (446, 232)
+     Tipo: escura, Centro (x,y): (445, 231)
+
+Frame 69:
+     Tipo: brilhante, Centro (x,y): (496, 274)
+     Tipo: brilhante, Centro (x,y): (446, 232)
+     Tipo: escura, Centro (x,y): (452, 240)
+     Tipo: escura, Centro (x,y): (422, 238)
+
+Frame 70:
+     Tipo: escura, Centro (x,y): (452, 240)
+     Tipo: escura, Centro (x,y): (422, 238)
+
+Frame 72:
+     Tipo: brilhante, Centro (x,y): (496, 273)
+     Tipo: brilhante, Centro (x,y): (399, 256)
+     Tipo: brilhante, Centro (x,y): (443, 237)
+     Tipo: escura, Centro (x,y): (440, 240)
+
+Frame 73:
+     Tipo: brilhante, Centro (x,y): (440, 236)
+     Tipo: escura, Centro (x,y): (447, 226)
+
+Frame 74:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (446, 229)
+
+Frame 75:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (446, 227)
+
+Frame 76:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 231)
+
+Frame 77:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 232)
+
+Frame 78:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 232)
+
+Frame 79:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 233)
+
+Frame 80:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 233)
+
+Frame 81:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 232)
+
+Frame 82:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (447, 232)
+
+Frame 83:
+     Tipo: brilhante, Centro (x,y): (447, 271)
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (444, 233)
+
+Frame 84:
+     Tipo: brilhante, Centro (x,y): (443, 239)
+     Tipo: escura, Centro (x,y): (445, 237)
+
+Frame 85:
+     Tipo: brilhante, Centro (x,y): (443, 239)
+     Tipo: escura, Centro (x,y): (444, 239)
+
+Frame 86:
+     Tipo: brilhante, Centro (x,y): (443, 237)
+     Tipo: escura, Centro (x,y): (444, 239)
+
+Frame 87:
+     Tipo: brilhante, Centro (x,y): (443, 237)
+     Tipo: escura, Centro (x,y): (444, 238)
+
+Frame 88:
+     Tipo: brilhante, Centro (x,y): (443, 239)
+     Tipo: escura, Centro (x,y): (444, 238)
+
+Frame 89:
+     Tipo: brilhante, Centro (x,y): (443, 239)
+     Tipo: escura, Centro (x,y): (445, 237)
+
+Frame 90:
+     Tipo: brilhante, Centro (x,y): (443, 239)
+     Tipo: escura, Centro (x,y): (445, 238)
+
+Frame 91:
+     Tipo: brilhante, Centro (x,y): (443, 239)
+     Tipo: escura, Centro (x,y): (444, 239)
+
+Frame 92:
+     Tipo: brilhante, Centro (x,y): (443, 240)
+     Tipo: escura, Centro (x,y): (444, 239)
+
+Frame 93:
+     Tipo: brilhante, Centro (x,y): (443, 240)
+     Tipo: escura, Centro (x,y): (443, 240)
 
 Frame 94:
-     Tipo: brilhante, Centro (x,y): (190, 225)
-     Tipo: brilhante, Centro (x,y): (167, 206)
-     Tipo: brilhante, Centro (x,y): (534, 174)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
+     Tipo: brilhante, Centro (x,y): (442, 239)
+     Tipo: escura, Centro (x,y): (443, 240)
 
 Frame 95:
-     Tipo: brilhante, Centro (x,y): (176, 210)
-     Tipo: brilhante, Centro (x,y): (541, 178)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
+     Tipo: brilhante, Centro (x,y): (442, 239)
+     Tipo: escura, Centro (x,y): (442, 239)
 
 Frame 96:
-     Tipo: brilhante, Centro (x,y): (175, 210)
-     Tipo: brilhante, Centro (x,y): (541, 178)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (442, 239)
 
 Frame 97:
-     Tipo: brilhante, Centro (x,y): (175, 210)
-     Tipo: brilhante, Centro (x,y): (540, 178)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (443, 238)
 
 Frame 98:
-     Tipo: brilhante, Centro (x,y): (175, 210)
-     Tipo: brilhante, Centro (x,y): (541, 178)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (443, 239)
 
 Frame 99:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (442, 239)
 
 Frame 100:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (442, 239)
 
 Frame 101:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (442, 239)
 
 Frame 102:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (442, 239)
 
 Frame 103:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (444, 239)
+
+Frame 104:
+     Tipo: brilhante, Centro (x,y): (442, 239)
+     Tipo: escura, Centro (x,y): (444, 239)
+
+Frame 105:
+     Tipo: brilhante, Centro (x,y): (442, 239)
+     Tipo: escura, Centro (x,y): (443, 240)
+
+Frame 106:
+     Tipo: brilhante, Centro (x,y): (443, 240)
+     Tipo: escura, Centro (x,y): (444, 240)
+
+Frame 107:
+     Tipo: brilhante, Centro (x,y): (443, 240)
+     Tipo: escura, Centro (x,y): (445, 239)
+
+Frame 108:
+     Tipo: brilhante, Centro (x,y): (444, 240)
+     Tipo: escura, Centro (x,y): (444, 239)
+
+Frame 109:
+     Tipo: brilhante, Centro (x,y): (444, 240)
+     Tipo: escura, Centro (x,y): (446, 241)
+
+Frame 110:
+     Tipo: brilhante, Centro (x,y): (444, 241)
+     Tipo: escura, Centro (x,y): (446, 241)
+
+Frame 111:
+     Tipo: brilhante, Centro (x,y): (444, 241)
+     Tipo: escura, Centro (x,y): (446, 241)
+
+Frame 112:
+     Tipo: brilhante, Centro (x,y): (445, 240)
+     Tipo: escura, Centro (x,y): (446, 241)
+
+Frame 113:
+     Tipo: brilhante, Centro (x,y): (445, 240)
+     Tipo: escura, Centro (x,y): (446, 239)
+
+Frame 114:
+     Tipo: brilhante, Centro (x,y): (446, 237)
+     Tipo: escura, Centro (x,y): (447, 238)
+
+Frame 115:
+     Tipo: brilhante, Centro (x,y): (446, 237)
+     Tipo: escura, Centro (x,y): (449, 231)
+
+Frame 116:
+     Tipo: brilhante, Centro (x,y): (448, 233)
+     Tipo: escura, Centro (x,y): (448, 233)
+
+Frame 117:
+     Tipo: brilhante, Centro (x,y): (448, 233)
+     Tipo: escura, Centro (x,y): (448, 234)
+
+Frame 118:
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (448, 234)
+
+Frame 119:
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (449, 233)
+
+Frame 120:
+     Tipo: brilhante, Centro (x,y): (447, 233)
+     Tipo: escura, Centro (x,y): (449, 233)
+
+Frame 121:
+     Tipo: brilhante, Centro (x,y): (447, 233)
+     Tipo: escura, Centro (x,y): (449, 231)
+
+Frame 122:
+     Tipo: brilhante, Centro (x,y): (447, 232)
+     Tipo: escura, Centro (x,y): (449, 231)
+
+Frame 123:
+     Tipo: brilhante, Centro (x,y): (447, 232)
+     Tipo: escura, Centro (x,y): (449, 231)
+
+Frame 124:
+     Tipo: brilhante, Centro (x,y): (447, 233)
+     Tipo: escura, Centro (x,y): (449, 231)
+
+Frame 125:
+     Tipo: brilhante, Centro (x,y): (447, 233)
+     Tipo: escura, Centro (x,y): (449, 233)
+
+Frame 126:
+     Tipo: brilhante, Centro (x,y): (448, 234)
+     Tipo: escura, Centro (x,y): (449, 234)
+
+Frame 127:
+     Tipo: brilhante, Centro (x,y): (448, 234)
+     Tipo: escura, Centro (x,y): (449, 232)
+
+Frame 128:
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (449, 232)
+
+Frame 129:
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (449, 234)
+
+Frame 130:
+     Tipo: brilhante, Centro (x,y): (446, 234)
+     Tipo: escura, Centro (x,y): (449, 234)
+
+Frame 131:
+     Tipo: brilhante, Centro (x,y): (446, 234)
+     Tipo: escura, Centro (x,y): (451, 235)
+
+Frame 132:
+     Tipo: brilhante, Centro (x,y): (457, 239)
+     Tipo: escura, Centro (x,y): (451, 237)
+
+Frame 133:
+     Tipo: brilhante, Centro (x,y): (457, 239)
+     Tipo: escura, Centro (x,y): (457, 237)
+
+Frame 134:
+     Tipo: brilhante, Centro (x,y): (457, 239)
+     Tipo: escura, Centro (x,y): (457, 237)
+
+Frame 135:
+     Tipo: brilhante, Centro (x,y): (457, 239)
+     Tipo: escura, Centro (x,y): (456, 238)
+
+Frame 136:
+     Tipo: brilhante, Centro (x,y): (456, 239)
+     Tipo: escura, Centro (x,y): (456, 238)
+
+Frame 137:
+     Tipo: brilhante, Centro (x,y): (456, 239)
+     Tipo: escura, Centro (x,y): (456, 237)
+
+Frame 138:
+     Tipo: brilhante, Centro (x,y): (431, 231)
+     Tipo: brilhante, Centro (x,y): (456, 239)
+     Tipo: escura, Centro (x,y): (457, 237)
+
+Frame 141:
+     Tipo: escura, Centro (x,y): (428, 268)
+
+Frame 144:
+     Tipo: escura, Centro (x,y): (460, 253)
+
+Frame 145:
+     Tipo: escura, Centro (x,y): (463, 248)
+
+Frame 146:
+     Tipo: brilhante, Centro (x,y): (459, 252)
+     Tipo: escura, Centro (x,y): (462, 248)
+
+Frame 147:
+     Tipo: brilhante, Centro (x,y): (459, 252)
+     Tipo: escura, Centro (x,y): (460, 245)
+
+Frame 148:
+     Tipo: brilhante, Centro (x,y): (459, 250)
+     Tipo: escura, Centro (x,y): (460, 247)
+
+Frame 149:
+     Tipo: escura, Centro (x,y): (459, 248)
+
+Frame 150:
+     Tipo: brilhante, Centro (x,y): (460, 249)
+     Tipo: escura, Centro (x,y): (459, 248)
+
+Frame 151:
+     Tipo: escura, Centro (x,y): (459, 247)
+
+Frame 152:
+     Tipo: brilhante, Centro (x,y): (461, 248)
+     Tipo: escura, Centro (x,y): (460, 248)
+
+Frame 153:
+     Tipo: brilhante, Centro (x,y): (461, 248)
+     Tipo: escura, Centro (x,y): (458, 250)
+
+Frame 154:
+     Tipo: brilhante, Centro (x,y): (459, 249)
+     Tipo: escura, Centro (x,y): (459, 246)
+
+Frame 155:
+     Tipo: brilhante, Centro (x,y): (459, 249)
+     Tipo: escura, Centro (x,y): (459, 251)
+
+Frame 156:
+     Tipo: brilhante, Centro (x,y): (460, 248)
+     Tipo: escura, Centro (x,y): (459, 251)
+
+Frame 157:
+     Tipo: brilhante, Centro (x,y): (457, 250)
+     Tipo: escura, Centro (x,y): (458, 250)
+
+Frame 158:
+     Tipo: brilhante, Centro (x,y): (436, 248)
+     Tipo: brilhante, Centro (x,y): (460, 245)
+     Tipo: escura, Centro (x,y): (458, 250)
+
+Frame 159:
+     Tipo: brilhante, Centro (x,y): (459, 247)
+     Tipo: escura, Centro (x,y): (457, 249)
 
 Frame 160:
-     Tipo: brilhante, Centro (x,y): (172, 207)
-     Tipo: brilhante, Centro (x,y): (540, 176)
-     Tipo: escura, Centro (x,y): (173, 207)
-     Tipo: escura, Centro (x,y): (540, 176)
+     Tipo: brilhante, Centro (x,y): (460, 247)
+     Tipo: escura, Centro (x,y): (457, 249)
 
 Frame 161:
-     Tipo: brilhante, Centro (x,y): (174, 207)
-     Tipo: brilhante, Centro (x,y): (542, 177)
-     Tipo: escura, Centro (x,y): (173, 207)
-     Tipo: escura, Centro (x,y): (540, 176)
+     Tipo: brilhante, Centro (x,y): (460, 247)
+     Tipo: escura, Centro (x,y): (458, 249)
+
+Frame 162:
+     Tipo: brilhante, Centro (x,y): (461, 247)
+     Tipo: escura, Centro (x,y): (458, 250)
+
+Frame 163:
+     Tipo: escura, Centro (x,y): (459, 249)
 
 Frame 164:
-     Tipo: brilhante, Centro (x,y): (175, 207)
-     Tipo: brilhante, Centro (x,y): (542, 177)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (461, 246)
+     Tipo: escura, Centro (x,y): (459, 248)
 
 Frame 165:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (461, 246)
+     Tipo: escura, Centro (x,y): (457, 246)
 
 Frame 166:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (457, 245)
 
 Frame 167:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (457, 243)
 
 Frame 168:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 248)
+     Tipo: escura, Centro (x,y): (457, 245)
 
 Frame 169:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (544, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 248)
+     Tipo: escura, Centro (x,y): (457, 246)
 
 Frame 170:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (544, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (543, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (457, 246)
 
 Frame 171:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (543, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (455, 247)
 
 Frame 172:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (455, 247)
+     Tipo: escura, Centro (x,y): (455, 247)
 
 Frame 173:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (455, 247)
+     Tipo: escura, Centro (x,y): (455, 244)
 
 Frame 174:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (453, 244)
 
 Frame 175:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (456, 244)
 
 Frame 176:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (454, 246)
+     Tipo: escura, Centro (x,y): (455, 245)
 
 Frame 177:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (454, 246)
+     Tipo: escura, Centro (x,y): (454, 245)
 
 Frame 178:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
+     Tipo: brilhante, Centro (x,y): (454, 246)
+     Tipo: escura, Centro (x,y): (454, 245)
 
 Frame 179:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 178)
+     Tipo: brilhante, Centro (x,y): (454, 246)
+     Tipo: escura, Centro (x,y): (452, 243)
 
 Frame 180:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
+     Tipo: brilhante, Centro (x,y): (455, 246)
+     Tipo: escura, Centro (x,y): (451, 243)
 
 Frame 181:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
+     Tipo: brilhante, Centro (x,y): (455, 246)
+     Tipo: escura, Centro (x,y): (456, 244)
 
 Frame 182:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 178)
+     Tipo: brilhante, Centro (x,y): (456, 246)
+     Tipo: escura, Centro (x,y): (457, 245)
 
 Frame 183:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 178)
+     Tipo: brilhante, Centro (x,y): (456, 246)
+     Tipo: escura, Centro (x,y): (452, 235)
 
 Frame 184:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (543, 178)
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (450, 235)
 
 Frame 185:
-     Tipo: brilhante, Centro (x,y): (176, 209)
-     Tipo: brilhante, Centro (x,y): (544, 180)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (543, 178)
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (448, 226)
 
 Frame 186:
-     Tipo: brilhante, Centro (x,y): (176, 209)
-     Tipo: brilhante, Centro (x,y): (544, 180)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (544, 179)
+     Tipo: brilhante, Centro (x,y): (445, 230)
+     Tipo: escura, Centro (x,y): (447, 227)
 
 Frame 187:
-     Tipo: brilhante, Centro (x,y): (177, 210)
-     Tipo: brilhante, Centro (x,y): (545, 180)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (544, 179)
+     Tipo: brilhante, Centro (x,y): (445, 230)
+     Tipo: escura, Centro (x,y): (446, 230)
 
 Frame 188:
-     Tipo: brilhante, Centro (x,y): (177, 210)
-     Tipo: brilhante, Centro (x,y): (545, 180)
-     Tipo: escura, Centro (x,y): (178, 210)
-     Tipo: escura, Centro (x,y): (545, 180)
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
 
 Frame 189:
-     Tipo: brilhante, Centro (x,y): (178, 210)
-     Tipo: brilhante, Centro (x,y): (546, 181)
-     Tipo: escura, Centro (x,y): (178, 210)
-     Tipo: escura, Centro (x,y): (545, 180)
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 229)
 
 Frame 190:
-     Tipo: brilhante, Centro (x,y): (178, 210)
-     Tipo: brilhante, Centro (x,y): (546, 181)
-     Tipo: escura, Centro (x,y): (178, 209)
-     Tipo: escura, Centro (x,y): (546, 179)
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (447, 231)
 
 Frame 191:
-     Tipo: brilhante, Centro (x,y): (178, 208)
-     Tipo: brilhante, Centro (x,y): (546, 180)
-     Tipo: escura, Centro (x,y): (179, 208)
-     Tipo: escura, Centro (x,y): (546, 179)
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (446, 231)
 
 Frame 192:
-     Tipo: brilhante, Centro (x,y): (178, 209)
-     Tipo: brilhante, Centro (x,y): (546, 180)
-     Tipo: escura, Centro (x,y): (180, 209)
-     Tipo: escura, Centro (x,y): (546, 178)
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 193:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 194:
+     Tipo: brilhante, Centro (x,y): (446, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
 
 Frame 195:
-     Tipo: brilhante, Centro (x,y): (202, 237)
-     Tipo: brilhante, Centro (x,y): (542, 148)
-     Tipo: brilhante, Centro (x,y): (549, 212)
+     Tipo: brilhante, Centro (x,y): (446, 232)
+     Tipo: escura, Centro (x,y): (447, 230)
+
+Frame 196:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (447, 231)
+
+Frame 197:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (446, 232)
+
+Frame 198:
+     Tipo: brilhante, Centro (x,y): (451, 237)
+     Tipo: escura, Centro (x,y): (448, 225)
+
+Frame 199:
+     Tipo: brilhante, Centro (x,y): (451, 237)
+     Tipo: escura, Centro (x,y): (455, 236)
+
+Frame 200:
+     Tipo: brilhante, Centro (x,y): (455, 243)
+
+Frame 201:
+     Tipo: brilhante, Centro (x,y): (455, 243)
+     Tipo: brilhante, Centro (x,y): (418, 232)
+     Tipo: escura, Centro (x,y): (454, 243)
+
+Frame 202:
+     Tipo: brilhante, Centro (x,y): (454, 243)
+     Tipo: escura, Centro (x,y): (455, 243)
+
+Frame 203:
+     Tipo: brilhante, Centro (x,y): (454, 243)
+     Tipo: escura, Centro (x,y): (454, 243)
+
+Frame 204:
+     Tipo: brilhante, Centro (x,y): (455, 244)
+     Tipo: escura, Centro (x,y): (454, 243)
+
+Frame 205:
+     Tipo: brilhante, Centro (x,y): (455, 244)
+     Tipo: escura, Centro (x,y): (454, 244)
+
+Frame 206:
+     Tipo: brilhante, Centro (x,y): (455, 244)
+     Tipo: escura, Centro (x,y): (454, 244)
+
+Frame 207:
+     Tipo: brilhante, Centro (x,y): (455, 244)
+     Tipo: escura, Centro (x,y): (456, 242)
+
+Frame 208:
+     Tipo: brilhante, Centro (x,y): (455, 243)
+     Tipo: escura, Centro (x,y): (455, 243)
+
+Frame 209:
+     Tipo: brilhante, Centro (x,y): (455, 243)
+     Tipo: escura, Centro (x,y): (454, 241)
+
+Frame 210:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (454, 241)
+
+Frame 211:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (456, 243)
+
+Frame 212:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (457, 241)
+
+Frame 213:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (455, 243)
+
+Frame 214:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (455, 243)
+
+Frame 215:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (456, 242)
+
+Frame 216:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (456, 243)
+
+Frame 217:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (457, 240)
+
+Frame 218:
+     Tipo: brilhante, Centro (x,y): (458, 240)
+     Tipo: brilhante, Centro (x,y): (417, 227)
+     Tipo: escura, Centro (x,y): (457, 243)
+
+Frame 219:
+     Tipo: brilhante, Centro (x,y): (458, 240)
+     Tipo: brilhante, Centro (x,y): (417, 227)
+     Tipo: escura, Centro (x,y): (455, 240)
 
 Frame 220:
-     Tipo: brilhante, Centro (x,y): (165, 213)
-     Tipo: brilhante, Centro (x,y): (537, 182)
-     Tipo: escura, Centro (x,y): (165, 214)
-     Tipo: escura, Centro (x,y): (537, 181)
+     Tipo: brilhante, Centro (x,y): (458, 270)
+     Tipo: brilhante, Centro (x,y): (449, 235)
+     Tipo: escura, Centro (x,y): (454, 237)
 
 Frame 221:
-     Tipo: brilhante, Centro (x,y): (165, 214)
-     Tipo: brilhante, Centro (x,y): (538, 182)
-     Tipo: escura, Centro (x,y): (165, 214)
-     Tipo: escura, Centro (x,y): (537, 181)
-
-Frame 251:
-     Tipo: brilhante, Centro (x,y): (153, 208)
-     Tipo: escura, Centro (x,y): (557, 185)
-
-Frame 252:
-     Tipo: escura, Centro (x,y): (190, 235)
-
-Frame 5:
-     Tipo: brilhante, Centro (x,y): (318, 480)
-     Tipo: brilhante, Centro (x,y): (164, 197)
-     Tipo: brilhante, Centro (x,y): (530, 166)
-     Tipo: escura, Centro (x,y): (164, 200)
-     Tipo: escura, Centro (x,y): (530, 169)
-
-Frame 6:
-     Tipo: brilhante, Centro (x,y): (165, 200)
-     Tipo: brilhante, Centro (x,y): (531, 170)
-     Tipo: escura, Centro (x,y): (164, 200)
-     Tipo: escura, Centro (x,y): (530, 169)
-
-Frame 7:
-     Tipo: brilhante, Centro (x,y): (165, 200)
-     Tipo: brilhante, Centro (x,y): (531, 170)
-     Tipo: escura, Centro (x,y): (165, 200)
-     Tipo: escura, Centro (x,y): (531, 168)
-
-Frame 8:
-     Tipo: brilhante, Centro (x,y): (165, 199)
-     Tipo: brilhante, Centro (x,y): (532, 169)
-     Tipo: escura, Centro (x,y): (165, 200)
-     Tipo: escura, Centro (x,y): (531, 168)
-
-Frame 9:
-     Tipo: brilhante, Centro (x,y): (165, 199)
-     Tipo: brilhante, Centro (x,y): (532, 168)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
-
-Frame 10:
-     Tipo: brilhante, Centro (x,y): (166, 197)
-     Tipo: brilhante, Centro (x,y): (532, 167)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
-
-Frame 11:
-     Tipo: brilhante, Centro (x,y): (166, 197)
-     Tipo: brilhante, Centro (x,y): (532, 167)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
-
-Frame 12:
-     Tipo: brilhante, Centro (x,y): (167, 198)
-     Tipo: brilhante, Centro (x,y): (533, 167)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
-
-Frame 15:
-     Tipo: brilhante, Centro (x,y): (171, 202)
-     Tipo: brilhante, Centro (x,y): (537, 171)
-     Tipo: escura, Centro (x,y): (171, 201)
-     Tipo: escura, Centro (x,y): (537, 171)
-
-Frame 16:
-     Tipo: brilhante, Centro (x,y): (172, 202)
-     Tipo: brilhante, Centro (x,y): (538, 172)
-     Tipo: escura, Centro (x,y): (171, 201)
-     Tipo: escura, Centro (x,y): (537, 171)
-
-Frame 17:
-     Tipo: brilhante, Centro (x,y): (172, 201)
-     Tipo: brilhante, Centro (x,y): (538, 172)
-     Tipo: escura, Centro (x,y): (172, 201)
-     Tipo: escura, Centro (x,y): (538, 170)
-
-Frame 18:
-     Tipo: brilhante, Centro (x,y): (170, 199)
-     Tipo: brilhante, Centro (x,y): (534, 169)
-     Tipo: escura, Centro (x,y): (172, 201)
-     Tipo: escura, Centro (x,y): (538, 170)
-
-Frame 21:
-     Tipo: brilhante, Centro (x,y): (164, 200)
-     Tipo: brilhante, Centro (x,y): (530, 167)
-     Tipo: escura, Centro (x,y): (165, 199)
-     Tipo: escura, Centro (x,y): (528, 167)
-
-Frame 22:
-     Tipo: brilhante, Centro (x,y): (161, 203)
-     Tipo: brilhante, Centro (x,y): (527, 168)
-     Tipo: escura, Centro (x,y): (165, 199)
-     Tipo: escura, Centro (x,y): (528, 167)
-
-Frame 23:
-     Tipo: brilhante, Centro (x,y): (161, 203)
-     Tipo: brilhante, Centro (x,y): (527, 168)
-     Tipo: escura, Centro (x,y): (161, 201)
-     Tipo: escura, Centro (x,y): (526, 168)
-
-Frame 24:
-     Tipo: brilhante, Centro (x,y): (162, 200)
-     Tipo: brilhante, Centro (x,y): (526, 168)
-     Tipo: escura, Centro (x,y): (161, 201)
-     Tipo: escura, Centro (x,y): (526, 168)
-
-Frame 51:
-     Tipo: brilhante, Centro (x,y): (158, 204)
-     Tipo: brilhante, Centro (x,y): (523, 171)
-     Tipo: escura, Centro (x,y): (158, 204)
-     Tipo: escura, Centro (x,y): (524, 171)
-
-Frame 52:
-     Tipo: brilhante, Centro (x,y): (158, 205)
-     Tipo: brilhante, Centro (x,y): (523, 172)
-     Tipo: escura, Centro (x,y): (158, 204)
-     Tipo: escura, Centro (x,y): (524, 171)
-
-Frame 53:
-     Tipo: brilhante, Centro (x,y): (158, 205)
-     Tipo: brilhante, Centro (x,y): (523, 172)
-     Tipo: escura, Centro (x,y): (158, 205)
-     Tipo: escura, Centro (x,y): (523, 174)
-
-Frame 54:
-     Tipo: brilhante, Centro (x,y): (196, 231)
-     Tipo: brilhante, Centro (x,y): (167, 204)
-     Tipo: brilhante, Centro (x,y): (533, 172)
-     Tipo: escura, Centro (x,y): (158, 205)
-     Tipo: escura, Centro (x,y): (523, 174)
-
-Frame 95:
-     Tipo: brilhante, Centro (x,y): (190, 225)
-     Tipo: brilhante, Centro (x,y): (167, 206)
-     Tipo: brilhante, Centro (x,y): (534, 174)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 97:
-     Tipo: brilhante, Centro (x,y): (176, 210)
-     Tipo: brilhante, Centro (x,y): (541, 178)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 99:
-     Tipo: brilhante, Centro (x,y): (175, 210)
-     Tipo: brilhante, Centro (x,y): (540, 178)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 101:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
-
-Frame 103:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
-
-Frame 104:
-     Tipo: brilhante, Centro (x,y): (176, 209)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (177, 207)
-     Tipo: escura, Centro (x,y): (542, 178)
-
-Frame 161:
-     Tipo: brilhante, Centro (x,y): (177, 205)
-     Tipo: brilhante, Centro (x,y): (540, 177)
-     Tipo: escura, Centro (x,y): (175, 206)
-     Tipo: escura, Centro (x,y): (541, 176)
-
-Frame 162:
-     Tipo: brilhante, Centro (x,y): (174, 207)
-     Tipo: brilhante, Centro (x,y): (542, 177)
-     Tipo: escura, Centro (x,y): (173, 207)
-     Tipo: escura, Centro (x,y): (540, 176)
-
-Frame 165:
-     Tipo: brilhante, Centro (x,y): (175, 207)
-     Tipo: brilhante, Centro (x,y): (542, 177)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 166:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 167:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 168:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 169:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 170:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (544, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 171:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (544, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (543, 177)
-
-Frame 172:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 177)
-
-Frame 173:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 174:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 175:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 176:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 177:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 178:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 179:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 178)
-
-Frame 180:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 179)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
-
-Frame 181:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
-
-Frame 182:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
-
-Frame 183:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 178)
-
-Frame 184:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 178)
-
-Frame 185:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (543, 178)
-
-Frame 186:
-     Tipo: brilhante, Centro (x,y): (176, 209)
-     Tipo: brilhante, Centro (x,y): (544, 180)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (543, 178)
-
-Frame 187:
-     Tipo: brilhante, Centro (x,y): (176, 209)
-     Tipo: brilhante, Centro (x,y): (544, 180)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (544, 179)
-
-Frame 188:
-     Tipo: brilhante, Centro (x,y): (177, 210)
-     Tipo: brilhante, Centro (x,y): (545, 180)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (544, 179)
-
-Frame 189:
-     Tipo: brilhante, Centro (x,y): (177, 210)
-     Tipo: brilhante, Centro (x,y): (545, 180)
-     Tipo: escura, Centro (x,y): (178, 210)
-     Tipo: escura, Centro (x,y): (545, 180)
-
-Frame 190:
-     Tipo: brilhante, Centro (x,y): (178, 210)
-     Tipo: brilhante, Centro (x,y): (546, 181)
-     Tipo: escura, Centro (x,y): (178, 210)
-     Tipo: escura, Centro (x,y): (545, 180)
-
-Frame 191:
-     Tipo: brilhante, Centro (x,y): (178, 210)
-     Tipo: brilhante, Centro (x,y): (546, 181)
-     Tipo: escura, Centro (x,y): (178, 209)
-     Tipo: escura, Centro (x,y): (546, 179)
-
-Frame 192:
-     Tipo: brilhante, Centro (x,y): (178, 209)
-     Tipo: brilhante, Centro (x,y): (546, 180)
-     Tipo: escura, Centro (x,y): (178, 209)
-     Tipo: escura, Centro (x,y): (546, 179)
-
-Frame 193:
-     Tipo: brilhante, Centro (x,y): (178, 209)
-     Tipo: brilhante, Centro (x,y): (546, 180)
-     Tipo: escura, Centro (x,y): (178, 210)
-     Tipo: escura, Centro (x,y): (546, 180)
-
-Frame 196:
-     Tipo: brilhante, Centro (x,y): (202, 237)
-     Tipo: brilhante, Centro (x,y): (549, 212)
-     Tipo: escura, Centro (x,y): (157, 238)
-
-Frame 221:
-     Tipo: brilhante, Centro (x,y): (165, 213)
-     Tipo: brilhante, Centro (x,y): (537, 182)
-     Tipo: escura, Centro (x,y): (165, 214)
-     Tipo: escura, Centro (x,y): (537, 181)
+     Tipo: brilhante, Centro (x,y): (449, 235)
+     Tipo: escura, Centro (x,y): (446, 223)
 
 Frame 222:
-     Tipo: brilhante, Centro (x,y): (165, 214)
-     Tipo: brilhante, Centro (x,y): (538, 182)
-     Tipo: escura, Centro (x,y): (165, 214)
-     Tipo: escura, Centro (x,y): (537, 181)
+     Tipo: brilhante, Centro (x,y): (444, 228)
+     Tipo: escura, Centro (x,y): (445, 227)
+
+Frame 223:
+     Tipo: brilhante, Centro (x,y): (444, 228)
+     Tipo: escura, Centro (x,y): (444, 229)
+
+Frame 224:
+     Tipo: brilhante, Centro (x,y): (444, 228)
+     Tipo: escura, Centro (x,y): (445, 227)
+
+Frame 225:
+     Tipo: brilhante, Centro (x,y): (444, 228)
+     Tipo: escura, Centro (x,y): (444, 227)
+
+Frame 226:
+     Tipo: brilhante, Centro (x,y): (443, 228)
+     Tipo: escura, Centro (x,y): (446, 223)
+
+Frame 227:
+     Tipo: brilhante, Centro (x,y): (443, 230)
+
+Frame 228:
+     Tipo: brilhante, Centro (x,y): (400, 247)
+
+Frame 229:
+     Tipo: escura, Centro (x,y): (414, 229)
+
+Frame 230:
+     Tipo: brilhante, Centro (x,y): (443, 232)
+
+Frame 231:
+     Tipo: brilhante, Centro (x,y): (441, 230)
+     Tipo: escura, Centro (x,y): (445, 223)
+
+Frame 232:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (444, 224)
+
+Frame 233:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (444, 224)
+
+Frame 234:
+     Tipo: brilhante, Centro (x,y): (441, 227)
+     Tipo: escura, Centro (x,y): (442, 224)
+
+Frame 235:
+     Tipo: brilhante, Centro (x,y): (441, 227)
+     Tipo: escura, Centro (x,y): (444, 225)
+
+Frame 236:
+     Tipo: brilhante, Centro (x,y): (442, 226)
+     Tipo: escura, Centro (x,y): (444, 225)
+
+Frame 237:
+     Tipo: brilhante, Centro (x,y): (442, 226)
+     Tipo: escura, Centro (x,y): (443, 225)
+
+Frame 238:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (444, 224)
+
+Frame 239:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (443, 226)
+
+Frame 240:
+     Tipo: brilhante, Centro (x,y): (442, 226)
+     Tipo: escura, Centro (x,y): (443, 226)
+
+Frame 241:
+     Tipo: brilhante, Centro (x,y): (442, 226)
+     Tipo: escura, Centro (x,y): (443, 225)
+
+Frame 242:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (443, 225)
+
+Frame 243:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (443, 225)
+
+Frame 244:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (443, 225)
+
+Frame 245:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (442, 226)
+
+Frame 246:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (442, 225)
+
+Frame 247:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (442, 224)
+
+Frame 248:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (442, 224)
+
+Frame 249:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (443, 224)
+
+Frame 250:
+     Tipo: brilhante, Centro (x,y): (442, 226)
+     Tipo: escura, Centro (x,y): (443, 225)
+
+Frame 251:
+     Tipo: brilhante, Centro (x,y): (442, 226)
+     Tipo: escura, Centro (x,y): (443, 226)
 
 Frame 252:
-     Tipo: brilhante, Centro (x,y): (154, 208)
-     Tipo: brilhante, Centro (x,y): (558, 187)
+     Tipo: brilhante, Centro (x,y): (443, 226)
+     Tipo: escura, Centro (x,y): (444, 226)
+
+Frame 253:
+     Tipo: brilhante, Centro (x,y): (443, 226)
+     Tipo: escura, Centro (x,y): (444, 226)
+
+Frame 254:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (445, 224)
+
+Frame 255:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (443, 231)
+
+Frame 256:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (443, 231)
+
+Frame 257:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (444, 229)
+
+Frame 258:
+     Tipo: brilhante, Centro (x,y): (441, 232)
+     Tipo: escura, Centro (x,y): (443, 230)
+
+Frame 259:
+     Tipo: brilhante, Centro (x,y): (441, 232)
+     Tipo: escura, Centro (x,y): (442, 231)
+
+Frame 260:
+     Tipo: brilhante, Centro (x,y): (440, 233)
+     Tipo: escura, Centro (x,y): (442, 231)
+
+Frame 261:
+     Tipo: brilhante, Centro (x,y): (440, 233)
+     Tipo: escura, Centro (x,y): (442, 232)
+
+Frame 262:
+     Tipo: brilhante, Centro (x,y): (441, 233)
+     Tipo: escura, Centro (x,y): (442, 232)
+
+Frame 263:
+     Tipo: brilhante, Centro (x,y): (441, 233)
+     Tipo: escura, Centro (x,y): (443, 231)
+
+Frame 264:
+     Tipo: brilhante, Centro (x,y): (440, 233)
+     Tipo: escura, Centro (x,y): (443, 231)
+
+Frame 265:
+     Tipo: brilhante, Centro (x,y): (440, 233)
+     Tipo: escura, Centro (x,y): (442, 233)
+
+Frame 266:
+     Tipo: brilhante, Centro (x,y): (440, 232)
+     Tipo: escura, Centro (x,y): (442, 233)
+
+Frame 267:
+     Tipo: brilhante, Centro (x,y): (440, 232)
+     Tipo: escura, Centro (x,y): (443, 232)
+
+Frame 268:
+     Tipo: brilhante, Centro (x,y): (441, 233)
+     Tipo: escura, Centro (x,y): (442, 234)
+
+Frame 269:
+     Tipo: brilhante, Centro (x,y): (441, 233)
+     Tipo: escura, Centro (x,y): (441, 232)
+
+Frame 270:
+     Tipo: brilhante, Centro (x,y): (441, 233)
+     Tipo: escura, Centro (x,y): (441, 232)
+
+Frame 271:
+     Tipo: brilhante, Centro (x,y): (441, 233)
+     Tipo: escura, Centro (x,y): (442, 231)
+
+Frame 272:
+     Tipo: brilhante, Centro (x,y): (439, 233)
+     Tipo: escura, Centro (x,y): (442, 231)
+
+Frame 273:
+     Tipo: brilhante, Centro (x,y): (439, 233)
+     Tipo: escura, Centro (x,y): (440, 232)
+
+Frame 274:
+     Tipo: brilhante, Centro (x,y): (440, 232)
+     Tipo: escura, Centro (x,y): (440, 232)
+
+Frame 275:
+     Tipo: brilhante, Centro (x,y): (440, 232)
+     Tipo: escura, Centro (x,y): (441, 231)
+
+Frame 276:
+     Tipo: brilhante, Centro (x,y): (439, 233)
+     Tipo: escura, Centro (x,y): (441, 231)
+
+Frame 277:
+     Tipo: brilhante, Centro (x,y): (439, 233)
+     Tipo: escura, Centro (x,y): (441, 232)
+
+Frame 278:
+     Tipo: brilhante, Centro (x,y): (439, 233)
+     Tipo: escura, Centro (x,y): (441, 232)
+
+Frame 279:
+     Tipo: brilhante, Centro (x,y): (439, 233)
+     Tipo: escura, Centro (x,y): (441, 233)
+
+Frame 280:
+     Tipo: brilhante, Centro (x,y): (440, 234)
+     Tipo: escura, Centro (x,y): (441, 233)
+
+Frame 281:
+     Tipo: brilhante, Centro (x,y): (440, 234)
+     Tipo: escura, Centro (x,y): (442, 234)
+
+Frame 282:
+     Tipo: brilhante, Centro (x,y): (446, 234)
+     Tipo: escura, Centro (x,y): (442, 232)
+
+Frame 283:
+     Tipo: brilhante, Centro (x,y): (446, 234)
+     Tipo: escura, Centro (x,y): (447, 234)
+
+Frame 284:
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (447, 234)
+
+Frame 285:
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (448, 232)
+
+Frame 286:
+     Tipo: escura, Centro (x,y): (449, 230)
+
+Frame 287:
+     Tipo: escura, Centro (x,y): (439, 254)
+     Tipo: escura, Centro (x,y): (416, 254)
+
+Frame 288:
+     Tipo: escura, Centro (x,y): (416, 254)
+     Tipo: escura, Centro (x,y): (365, 252)
+
+Frame 289:
+     Tipo: escura, Centro (x,y): (452, 231)
+     Tipo: escura, Centro (x,y): (407, 225)
+
+Frame 290:
+     Tipo: brilhante, Centro (x,y): (407, 245)
+     Tipo: brilhante, Centro (x,y): (441, 232)
+     Tipo: escura, Centro (x,y): (451, 232)
+
+Frame 291:
+     Tipo: brilhante, Centro (x,y): (442, 232)
+     Tipo: escura, Centro (x,y): (448, 225)
+
+Frame 292:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 293:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (447, 227)
+
+Frame 294:
+     Tipo: brilhante, Centro (x,y): (444, 230)
+     Tipo: escura, Centro (x,y): (445, 229)
+
+Frame 295:
+     Tipo: brilhante, Centro (x,y): (444, 229)
+     Tipo: escura, Centro (x,y): (445, 224)
+
+Frame 296:
+     Tipo: brilhante, Centro (x,y): (444, 229)
+     Tipo: escura, Centro (x,y): (444, 229)
+
+Frame 297:
+     Tipo: brilhante, Centro (x,y): (444, 229)
+     Tipo: escura, Centro (x,y): (445, 229)
+
+Frame 298:
+     Tipo: brilhante, Centro (x,y): (443, 229)
+     Tipo: escura, Centro (x,y): (445, 229)
+
+Frame 299:
+     Tipo: brilhante, Centro (x,y): (443, 229)
+     Tipo: escura, Centro (x,y): (443, 227)
+
+Frame 300:
+     Tipo: brilhante, Centro (x,y): (441, 229)
+     Tipo: escura, Centro (x,y): (443, 227)
+
+Frame 301:
+     Tipo: brilhante, Centro (x,y): (441, 229)
+     Tipo: escura, Centro (x,y): (442, 227)
+
+Frame 302:
+     Tipo: brilhante, Centro (x,y): (441, 229)
+     Tipo: escura, Centro (x,y): (442, 227)
+
+Frame 303:
+     Tipo: brilhante, Centro (x,y): (441, 229)
+     Tipo: escura, Centro (x,y): (443, 229)
+
+Frame 2:
+     Tipo: brilhante, Centro (x,y): (446, 233)
+     Tipo: escura, Centro (x,y): (447, 233)
+
+Frame 3:
+     Tipo: brilhante, Centro (x,y): (445, 234)
+     Tipo: escura, Centro (x,y): (447, 233)
+
+Frame 4:
+     Tipo: brilhante, Centro (x,y): (445, 234)
+     Tipo: escura, Centro (x,y): (448, 233)
 
 Frame 5:
-     Tipo: brilhante, Centro (x,y): (318, 480)
-     Tipo: brilhante, Centro (x,y): (448, 380)
-     Tipo: brilhante, Centro (x,y): (164, 197)
-     Tipo: brilhante, Centro (x,y): (530, 166)
-     Tipo: escura, Centro (x,y): (164, 200)
-     Tipo: escura, Centro (x,y): (530, 169)
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (448, 233)
 
 Frame 6:
-     Tipo: brilhante, Centro (x,y): (165, 200)
-     Tipo: brilhante, Centro (x,y): (531, 170)
-     Tipo: escura, Centro (x,y): (164, 200)
-     Tipo: escura, Centro (x,y): (530, 169)
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (450, 231)
 
 Frame 7:
-     Tipo: brilhante, Centro (x,y): (165, 200)
-     Tipo: brilhante, Centro (x,y): (531, 170)
-     Tipo: escura, Centro (x,y): (165, 200)
-     Tipo: escura, Centro (x,y): (531, 168)
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (449, 232)
 
 Frame 8:
-     Tipo: brilhante, Centro (x,y): (165, 199)
-     Tipo: brilhante, Centro (x,y): (532, 168)
-     Tipo: escura, Centro (x,y): (165, 200)
-     Tipo: escura, Centro (x,y): (531, 168)
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (448, 232)
 
 Frame 9:
-     Tipo: brilhante, Centro (x,y): (165, 199)
-     Tipo: brilhante, Centro (x,y): (532, 168)
-     Tipo: escura, Centro (x,y): (166, 198)
-     Tipo: escura, Centro (x,y): (532, 166)
+     Tipo: brilhante, Centro (x,y): (446, 235)
+     Tipo: escura, Centro (x,y): (447, 233)
 
 Frame 10:
-     Tipo: brilhante, Centro (x,y): (166, 197)
-     Tipo: brilhante, Centro (x,y): (532, 167)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
-
-Frame 12:
-     Tipo: brilhante, Centro (x,y): (167, 197)
-     Tipo: brilhante, Centro (x,y): (533, 167)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
-
-Frame 16:
-     Tipo: brilhante, Centro (x,y): (172, 202)
-     Tipo: brilhante, Centro (x,y): (538, 172)
-     Tipo: escura, Centro (x,y): (171, 201)
-     Tipo: escura, Centro (x,y): (537, 171)
-
-Frame 18:
-     Tipo: brilhante, Centro (x,y): (170, 199)
-     Tipo: brilhante, Centro (x,y): (534, 169)
-     Tipo: escura, Centro (x,y): (172, 201)
-     Tipo: escura, Centro (x,y): (538, 170)
-
-Frame 22:
-     Tipo: brilhante, Centro (x,y): (161, 203)
-     Tipo: brilhante, Centro (x,y): (527, 168)
-     Tipo: escura, Centro (x,y): (165, 199)
-     Tipo: escura, Centro (x,y): (528, 167)
-
-Frame 24:
-     Tipo: brilhante, Centro (x,y): (527, 168)
-     Tipo: escura, Centro (x,y): (161, 201)
-     Tipo: escura, Centro (x,y): (526, 167)
-
-Frame 52:
-     Tipo: brilhante, Centro (x,y): (158, 205)
-     Tipo: brilhante, Centro (x,y): (523, 172)
-     Tipo: escura, Centro (x,y): (158, 204)
-     Tipo: escura, Centro (x,y): (524, 171)
-
-Frame 54:
-     Tipo: brilhante, Centro (x,y): (167, 204)
-     Tipo: brilhante, Centro (x,y): (533, 172)
-     Tipo: escura, Centro (x,y): (158, 205)
-     Tipo: escura, Centro (x,y): (523, 173)
-
-Frame 96:
-     Tipo: brilhante, Centro (x,y): (176, 210)
-     Tipo: brilhante, Centro (x,y): (541, 178)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 98:
-     Tipo: brilhante, Centro (x,y): (175, 210)
-     Tipo: brilhante, Centro (x,y): (540, 178)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 100:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 102:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
-
-Frame 104:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
-
-Frame 162:
-     Tipo: brilhante, Centro (x,y): (174, 207)
-     Tipo: brilhante, Centro (x,y): (542, 177)
-     Tipo: escura, Centro (x,y): (173, 207)
-     Tipo: escura, Centro (x,y): (540, 176)
-
-Frame 166:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 168:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 170:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (544, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 172:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (543, 177)
-
-Frame 174:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (544, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 176:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 178:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 180:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 178)
-
-Frame 182:
-     Tipo: brilhante, Centro (x,y): (217, 234)
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
-
-Frame 184:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 178)
-
-Frame 186:
-     Tipo: brilhante, Centro (x,y): (176, 209)
-     Tipo: brilhante, Centro (x,y): (544, 180)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (543, 178)
-
-Frame 188:
-     Tipo: brilhante, Centro (x,y): (177, 210)
-     Tipo: brilhante, Centro (x,y): (545, 180)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (544, 179)
-
-Frame 190:
-     Tipo: brilhante, Centro (x,y): (178, 210)
-     Tipo: brilhante, Centro (x,y): (546, 181)
-     Tipo: escura, Centro (x,y): (178, 210)
-     Tipo: escura, Centro (x,y): (545, 180)
-
-Frame 191:
-     Tipo: brilhante, Centro (x,y): (178, 210)
-     Tipo: brilhante, Centro (x,y): (546, 181)
-     Tipo: escura, Centro (x,y): (180, 209)
-     Tipo: escura, Centro (x,y): (546, 179)
-
-Frame 193:
-     Tipo: brilhante, Centro (x,y): (178, 209)
-     Tipo: brilhante, Centro (x,y): (546, 180)
-     Tipo: escura, Centro (x,y): (178, 209)
-     Tipo: escura, Centro (x,y): (546, 179)
-
-Frame 221:
-     Tipo: brilhante, Centro (x,y): (165, 213)
-     Tipo: brilhante, Centro (x,y): (537, 182)
-     Tipo: escura, Centro (x,y): (165, 214)
-     Tipo: escura, Centro (x,y): (537, 181)
-
-Frame 5:
-     Tipo: brilhante, Centro (x,y): (318, 480)
-     Tipo: brilhante, Centro (x,y): (448, 380)
-     Tipo: brilhante, Centro (x,y): (164, 197)
-     Tipo: brilhante, Centro (x,y): (530, 166)
-     Tipo: escura, Centro (x,y): (164, 200)
-     Tipo: escura, Centro (x,y): (530, 169)
-
-Frame 7:
-     Tipo: brilhante, Centro (x,y): (165, 200)
-     Tipo: brilhante, Centro (x,y): (531, 170)
-     Tipo: escura, Centro (x,y): (165, 200)
-     Tipo: escura, Centro (x,y): (531, 168)
-
-Frame 9:
-     Tipo: brilhante, Centro (x,y): (165, 199)
-     Tipo: brilhante, Centro (x,y): (532, 168)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
+     Tipo: brilhante, Centro (x,y): (446, 235)
+     Tipo: escura, Centro (x,y): (448, 233)
 
 Frame 11:
-     Tipo: brilhante, Centro (x,y): (166, 197)
-     Tipo: brilhante, Centro (x,y): (532, 167)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
-
-Frame 15:
-     Tipo: brilhante, Centro (x,y): (171, 202)
-     Tipo: brilhante, Centro (x,y): (537, 171)
-     Tipo: escura, Centro (x,y): (171, 201)
-     Tipo: escura, Centro (x,y): (537, 171)
-
-Frame 17:
-     Tipo: brilhante, Centro (x,y): (172, 202)
-     Tipo: brilhante, Centro (x,y): (538, 172)
-     Tipo: escura, Centro (x,y): (172, 201)
-     Tipo: escura, Centro (x,y): (538, 170)
-
-Frame 21:
-     Tipo: brilhante, Centro (x,y): (164, 200)
-     Tipo: brilhante, Centro (x,y): (530, 167)
-     Tipo: escura, Centro (x,y): (165, 199)
-     Tipo: escura, Centro (x,y): (528, 167)
-
-Frame 23:
-     Tipo: brilhante, Centro (x,y): (161, 203)
-     Tipo: brilhante, Centro (x,y): (527, 168)
-     Tipo: escura, Centro (x,y): (161, 201)
-     Tipo: escura, Centro (x,y): (526, 168)
-
-Frame 51:
-     Tipo: brilhante, Centro (x,y): (158, 204)
-     Tipo: brilhante, Centro (x,y): (523, 171)
-     Tipo: escura, Centro (x,y): (158, 204)
-     Tipo: escura, Centro (x,y): (524, 171)
-
-Frame 53:
-     Tipo: brilhante, Centro (x,y): (158, 205)
-     Tipo: brilhante, Centro (x,y): (523, 172)
-     Tipo: escura, Centro (x,y): (158, 205)
-     Tipo: escura, Centro (x,y): (523, 174)
-
-Frame 95:
-     Tipo: brilhante, Centro (x,y): (190, 225)
-     Tipo: brilhante, Centro (x,y): (167, 206)
-     Tipo: brilhante, Centro (x,y): (534, 174)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 97:
-     Tipo: brilhante, Centro (x,y): (176, 210)
-     Tipo: brilhante, Centro (x,y): (541, 178)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 99:
-     Tipo: brilhante, Centro (x,y): (174, 210)
-     Tipo: brilhante, Centro (x,y): (540, 178)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 101:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
-
-Frame 102:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 176)
-
-Frame 103:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
-
-Frame 104:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (543, 179)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 176)
-
-Frame 161:
-     Tipo: brilhante, Centro (x,y): (172, 207)
-     Tipo: brilhante, Centro (x,y): (540, 176)
-     Tipo: escura, Centro (x,y): (173, 207)
-     Tipo: escura, Centro (x,y): (540, 176)
-
-Frame 162:
-     Tipo: brilhante, Centro (x,y): (174, 207)
-     Tipo: brilhante, Centro (x,y): (542, 177)
-     Tipo: escura, Centro (x,y): (173, 207)
-     Tipo: escura, Centro (x,y): (540, 176)
-
-Frame 165:
-     Tipo: brilhante, Centro (x,y): (175, 207)
-     Tipo: brilhante, Centro (x,y): (542, 177)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 166:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 167:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 168:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 169:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 170:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (544, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 171:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (544, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (544, 176)
-
-Frame 172:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (543, 177)
-
-Frame 173:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 174:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 175:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (544, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 176:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 177:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 178:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
-
-Frame 179:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 178)
-
-Frame 180:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 178)
-
-Frame 181:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
-
-Frame 182:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
-
-Frame 183:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 178)
-
-Frame 184:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 178)
-
-Frame 186:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (544, 179)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (544, 178)
-
-Frame 188:
-     Tipo: brilhante, Centro (x,y): (177, 210)
-     Tipo: brilhante, Centro (x,y): (545, 180)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (544, 179)
-
-Frame 190:
-     Tipo: brilhante, Centro (x,y): (178, 210)
-     Tipo: brilhante, Centro (x,y): (546, 181)
-     Tipo: escura, Centro (x,y): (178, 210)
-     Tipo: escura, Centro (x,y): (545, 180)
-
-Frame 192:
-     Tipo: brilhante, Centro (x,y): (178, 209)
-     Tipo: brilhante, Centro (x,y): (546, 180)
-     Tipo: escura, Centro (x,y): (178, 209)
-     Tipo: escura, Centro (x,y): (546, 180)
-
-Frame 196:
-     Tipo: brilhante, Centro (x,y): (203, 235)
-
-Frame 221:
-     Tipo: brilhante, Centro (x,y): (165, 213)
-     Tipo: brilhante, Centro (x,y): (537, 182)
-     Tipo: escura, Centro (x,y): (165, 214)
-     Tipo: escura, Centro (x,y): (537, 181)
-
-Frame 252:
-     Tipo: brilhante, Centro (x,y): (154, 208)
-     Tipo: brilhante, Centro (x,y): (558, 187)
-
-Frame 5:
-     Tipo: brilhante, Centro (x,y): (318, 477)
-     Tipo: brilhante, Centro (x,y): (392, 462)
-     Tipo: brilhante, Centro (x,y): (448, 380)
-     Tipo: brilhante, Centro (x,y): (164, 197)
-     Tipo: brilhante, Centro (x,y): (530, 166)
-     Tipo: escura, Centro (x,y): (164, 200)
-     Tipo: escura, Centro (x,y): (530, 169)
-
-Frame 7:
-     Tipo: brilhante, Centro (x,y): (165, 200)
-     Tipo: brilhante, Centro (x,y): (531, 170)
-     Tipo: escura, Centro (x,y): (164, 200)
-     Tipo: escura, Centro (x,y): (530, 168)
-
-Frame 8:
-     Tipo: brilhante, Centro (x,y): (165, 199)
-     Tipo: brilhante, Centro (x,y): (532, 169)
-     Tipo: escura, Centro (x,y): (531, 168)
-
-Frame 9:
-     Tipo: brilhante, Centro (x,y): (164, 199)
-     Tipo: brilhante, Centro (x,y): (531, 168)
-     Tipo: escura, Centro (x,y): (166, 198)
-     Tipo: escura, Centro (x,y): (532, 166)
-
-Frame 10:
-     Tipo: brilhante, Centro (x,y): (166, 197)
-     Tipo: brilhante, Centro (x,y): (532, 167)
-     Tipo: escura, Centro (x,y): (166, 198)
-     Tipo: escura, Centro (x,y): (532, 166)
-
-Frame 11:
-     Tipo: brilhante, Centro (x,y): (166, 197)
-     Tipo: brilhante, Centro (x,y): (532, 167)
-     Tipo: escura, Centro (x,y): (163, 197)
-     Tipo: escura, Centro (x,y): (531, 166)
+     Tipo: brilhante, Centro (x,y): (446, 236)
+     Tipo: escura, Centro (x,y): (447, 235)
 
 Frame 12:
-     Tipo: brilhante, Centro (x,y): (167, 198)
-     Tipo: brilhante, Centro (x,y): (533, 167)
-     Tipo: escura, Centro (x,y): (166, 197)
-     Tipo: escura, Centro (x,y): (532, 166)
+     Tipo: brilhante, Centro (x,y): (446, 236)
+     Tipo: escura, Centro (x,y): (447, 234)
+
+Frame 13:
+     Tipo: brilhante, Centro (x,y): (446, 235)
+     Tipo: escura, Centro (x,y): (448, 232)
+
+Frame 14:
+     Tipo: brilhante, Centro (x,y): (446, 235)
+     Tipo: escura, Centro (x,y): (449, 231)
 
 Frame 15:
-     Tipo: brilhante, Centro (x,y): (171, 202)
-     Tipo: brilhante, Centro (x,y): (537, 171)
-     Tipo: escura, Centro (x,y): (171, 201)
-     Tipo: escura, Centro (x,y): (537, 171)
+     Tipo: brilhante, Centro (x,y): (447, 235)
+     Tipo: escura, Centro (x,y): (449, 232)
 
 Frame 16:
-     Tipo: brilhante, Centro (x,y): (172, 202)
-     Tipo: brilhante, Centro (x,y): (538, 172)
-     Tipo: escura, Centro (x,y): (171, 201)
-     Tipo: escura, Centro (x,y): (537, 171)
+     Tipo: brilhante, Centro (x,y): (447, 235)
+     Tipo: escura, Centro (x,y): (450, 234)
 
 Frame 17:
-     Tipo: brilhante, Centro (x,y): (172, 202)
-     Tipo: brilhante, Centro (x,y): (538, 172)
-     Tipo: escura, Centro (x,y): (172, 201)
-     Tipo: escura, Centro (x,y): (538, 170)
+     Tipo: brilhante, Centro (x,y): (449, 235)
+     Tipo: escura, Centro (x,y): (451, 232)
 
 Frame 18:
-     Tipo: brilhante, Centro (x,y): (189, 225)
-     Tipo: brilhante, Centro (x,y): (170, 199)
-     Tipo: brilhante, Centro (x,y): (534, 169)
-     Tipo: escura, Centro (x,y): (172, 201)
-     Tipo: escura, Centro (x,y): (538, 170)
+     Tipo: brilhante, Centro (x,y): (449, 235)
+     Tipo: escura, Centro (x,y): (452, 231)
+
+Frame 19:
+     Tipo: brilhante, Centro (x,y): (450, 234)
+     Tipo: escura, Centro (x,y): (451, 232)
+
+Frame 20:
+     Tipo: brilhante, Centro (x,y): (450, 234)
+     Tipo: escura, Centro (x,y): (451, 233)
 
 Frame 21:
-     Tipo: brilhante, Centro (x,y): (164, 200)
-     Tipo: brilhante, Centro (x,y): (530, 167)
-     Tipo: escura, Centro (x,y): (165, 199)
-     Tipo: escura, Centro (x,y): (528, 167)
+     Tipo: brilhante, Centro (x,y): (451, 234)
+     Tipo: escura, Centro (x,y): (451, 233)
 
 Frame 22:
-     Tipo: brilhante, Centro (x,y): (161, 203)
-     Tipo: brilhante, Centro (x,y): (527, 168)
-     Tipo: escura, Centro (x,y): (165, 199)
-     Tipo: escura, Centro (x,y): (528, 167)
+     Tipo: brilhante, Centro (x,y): (451, 234)
+     Tipo: escura, Centro (x,y): (452, 233)
 
 Frame 23:
-     Tipo: brilhante, Centro (x,y): (161, 203)
-     Tipo: brilhante, Centro (x,y): (527, 168)
-     Tipo: escura, Centro (x,y): (161, 201)
-     Tipo: escura, Centro (x,y): (526, 168)
+     Tipo: brilhante, Centro (x,y): (450, 234)
+     Tipo: escura, Centro (x,y): (452, 234)
 
 Frame 24:
-     Tipo: brilhante, Centro (x,y): (527, 168)
-     Tipo: escura, Centro (x,y): (161, 201)
-     Tipo: escura, Centro (x,y): (526, 168)
+     Tipo: brilhante, Centro (x,y): (450, 234)
+     Tipo: escura, Centro (x,y): (451, 234)
+
+Frame 25:
+     Tipo: brilhante, Centro (x,y): (450, 233)
+     Tipo: escura, Centro (x,y): (452, 232)
+
+Frame 26:
+     Tipo: brilhante, Centro (x,y): (450, 233)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 27:
+     Tipo: brilhante, Centro (x,y): (449, 231)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 29:
+     Tipo: brilhante, Centro (x,y): (449, 232)
+     Tipo: escura, Centro (x,y): (450, 229)
+
+Frame 31:
+     Tipo: brilhante, Centro (x,y): (448, 231)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 33:
+     Tipo: brilhante, Centro (x,y): (447, 232)
+     Tipo: escura, Centro (x,y): (450, 229)
+
+Frame 35:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (448, 231)
+
+Frame 37:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 230)
+
+Frame 39:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (446, 230)
+
+Frame 41:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (444, 230)
+
+Frame 43:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (446, 229)
+
+Frame 45:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (444, 231)
+
+Frame 47:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 49:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (443, 232)
 
 Frame 51:
-     Tipo: brilhante, Centro (x,y): (158, 204)
-     Tipo: brilhante, Centro (x,y): (523, 171)
-     Tipo: escura, Centro (x,y): (158, 204)
-     Tipo: escura, Centro (x,y): (524, 171)
-
-Frame 52:
-     Tipo: brilhante, Centro (x,y): (158, 205)
-     Tipo: brilhante, Centro (x,y): (523, 172)
-     Tipo: escura, Centro (x,y): (158, 204)
-     Tipo: escura, Centro (x,y): (524, 171)
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (444, 229)
 
 Frame 53:
-     Tipo: brilhante, Centro (x,y): (158, 205)
-     Tipo: brilhante, Centro (x,y): (523, 172)
-     Tipo: escura, Centro (x,y): (158, 205)
-     Tipo: escura, Centro (x,y): (523, 174)
+     Tipo: brilhante, Centro (x,y): (442, 232)
+     Tipo: escura, Centro (x,y): (442, 231)
 
-Frame 54:
-     Tipo: brilhante, Centro (x,y): (196, 231)
-     Tipo: brilhante, Centro (x,y): (167, 204)
-     Tipo: brilhante, Centro (x,y): (533, 172)
-     Tipo: escura, Centro (x,y): (158, 205)
-     Tipo: escura, Centro (x,y): (523, 174)
+Frame 55:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (443, 230)
+
+Frame 57:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (445, 229)
+
+Frame 59:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 61:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 63:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 229)
+
+Frame 65:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 67:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (447, 232)
+
+Frame 69:
+     Tipo: brilhante, Centro (x,y): (446, 232)
+     Tipo: escura, Centro (x,y): (445, 231)
+
+Frame 73:
+     Tipo: brilhante, Centro (x,y): (496, 273)
+     Tipo: brilhante, Centro (x,y): (399, 256)
+     Tipo: brilhante, Centro (x,y): (443, 237)
+     Tipo: escura, Centro (x,y): (440, 240)
+
+Frame 75:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (446, 229)
+
+Frame 77:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 231)
+
+Frame 79:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 232)
+
+Frame 81:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 233)
+
+Frame 83:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (447, 232)
+
+Frame 85:
+     Tipo: brilhante, Centro (x,y): (443, 239)
+     Tipo: escura, Centro (x,y): (445, 237)
+
+Frame 87:
+     Tipo: brilhante, Centro (x,y): (443, 237)
+     Tipo: escura, Centro (x,y): (444, 239)
+
+Frame 89:
+     Tipo: brilhante, Centro (x,y): (443, 239)
+     Tipo: escura, Centro (x,y): (444, 238)
+
+Frame 91:
+     Tipo: brilhante, Centro (x,y): (443, 239)
+     Tipo: escura, Centro (x,y): (445, 238)
+
+Frame 93:
+     Tipo: brilhante, Centro (x,y): (443, 240)
+     Tipo: escura, Centro (x,y): (444, 239)
 
 Frame 95:
-     Tipo: brilhante, Centro (x,y): (190, 225)
-     Tipo: brilhante, Centro (x,y): (167, 206)
-     Tipo: brilhante, Centro (x,y): (534, 174)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 96:
-     Tipo: brilhante, Centro (x,y): (176, 210)
-     Tipo: brilhante, Centro (x,y): (541, 178)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
+     Tipo: brilhante, Centro (x,y): (442, 239)
+     Tipo: escura, Centro (x,y): (443, 240)
 
 Frame 97:
-     Tipo: brilhante, Centro (x,y): (175, 210)
-     Tipo: brilhante, Centro (x,y): (541, 178)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 98:
-     Tipo: brilhante, Centro (x,y): (174, 210)
-     Tipo: brilhante, Centro (x,y): (540, 178)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (442, 239)
 
 Frame 99:
-     Tipo: brilhante, Centro (x,y): (481, 295)
-     Tipo: brilhante, Centro (x,y): (175, 210)
-     Tipo: brilhante, Centro (x,y): (540, 178)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 100:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 209)
-     Tipo: escura, Centro (x,y): (540, 177)
-
-Frame 101:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (443, 239)
 
 Frame 102:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
-
-Frame 103:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (541, 177)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (442, 239)
 
 Frame 104:
-     Tipo: brilhante, Centro (x,y): (175, 209)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (541, 177)
+     Tipo: brilhante, Centro (x,y): (441, 239)
+     Tipo: escura, Centro (x,y): (444, 239)
+
+Frame 106:
+     Tipo: brilhante, Centro (x,y): (442, 239)
+     Tipo: escura, Centro (x,y): (443, 240)
+
+Frame 108:
+     Tipo: brilhante, Centro (x,y): (443, 240)
+     Tipo: escura, Centro (x,y): (445, 239)
+
+Frame 110:
+     Tipo: brilhante, Centro (x,y): (444, 240)
+     Tipo: escura, Centro (x,y): (446, 241)
+
+Frame 112:
+     Tipo: brilhante, Centro (x,y): (444, 241)
+     Tipo: escura, Centro (x,y): (446, 241)
+
+Frame 114:
+     Tipo: brilhante, Centro (x,y): (445, 240)
+     Tipo: escura, Centro (x,y): (446, 239)
+
+Frame 116:
+     Tipo: brilhante, Centro (x,y): (446, 237)
+     Tipo: escura, Centro (x,y): (449, 231)
+
+Frame 118:
+     Tipo: brilhante, Centro (x,y): (448, 233)
+     Tipo: escura, Centro (x,y): (448, 234)
+
+Frame 120:
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (449, 233)
+
+Frame 122:
+     Tipo: brilhante, Centro (x,y): (447, 233)
+     Tipo: escura, Centro (x,y): (449, 231)
+
+Frame 124:
+     Tipo: brilhante, Centro (x,y): (447, 232)
+     Tipo: escura, Centro (x,y): (449, 231)
+
+Frame 126:
+     Tipo: brilhante, Centro (x,y): (447, 233)
+     Tipo: escura, Centro (x,y): (449, 233)
+
+Frame 128:
+     Tipo: brilhante, Centro (x,y): (448, 234)
+     Tipo: escura, Centro (x,y): (449, 232)
+
+Frame 130:
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (449, 234)
+
+Frame 132:
+     Tipo: brilhante, Centro (x,y): (446, 234)
+     Tipo: escura, Centro (x,y): (451, 235)
+
+Frame 134:
+     Tipo: brilhante, Centro (x,y): (457, 239)
+     Tipo: escura, Centro (x,y): (457, 237)
+
+Frame 136:
+     Tipo: brilhante, Centro (x,y): (457, 239)
+     Tipo: escura, Centro (x,y): (456, 238)
+
+Frame 138:
+     Tipo: brilhante, Centro (x,y): (456, 239)
+     Tipo: escura, Centro (x,y): (456, 237)
+
+Frame 142:
+     Tipo: escura, Centro (x,y): (428, 268)
+
+Frame 146:
+     Tipo: escura, Centro (x,y): (463, 248)
+
+Frame 148:
+     Tipo: brilhante, Centro (x,y): (459, 252)
+     Tipo: escura, Centro (x,y): (460, 245)
+
+Frame 150:
+     Tipo: escura, Centro (x,y): (459, 248)
+
+Frame 152:
+     Tipo: escura, Centro (x,y): (459, 247)
+
+Frame 155:
+     Tipo: brilhante, Centro (x,y): (459, 249)
+     Tipo: escura, Centro (x,y): (459, 246)
+
+Frame 157:
+     Tipo: brilhante, Centro (x,y): (460, 248)
+     Tipo: escura, Centro (x,y): (459, 251)
+
+Frame 159:
+     Tipo: brilhante, Centro (x,y): (436, 248)
+     Tipo: brilhante, Centro (x,y): (460, 245)
+     Tipo: escura, Centro (x,y): (458, 250)
 
 Frame 161:
-     Tipo: brilhante, Centro (x,y): (172, 207)
-     Tipo: brilhante, Centro (x,y): (540, 176)
-     Tipo: escura, Centro (x,y): (173, 207)
-     Tipo: escura, Centro (x,y): (540, 176)
+     Tipo: brilhante, Centro (x,y): (460, 247)
+     Tipo: escura, Centro (x,y): (457, 249)
 
-Frame 162:
-     Tipo: brilhante, Centro (x,y): (174, 207)
-     Tipo: brilhante, Centro (x,y): (542, 177)
-     Tipo: escura, Centro (x,y): (173, 207)
-     Tipo: escura, Centro (x,y): (540, 176)
+Frame 163:
+     Tipo: brilhante, Centro (x,y): (461, 247)
+     Tipo: escura, Centro (x,y): (458, 250)
 
 Frame 165:
-     Tipo: brilhante, Centro (x,y): (175, 207)
-     Tipo: brilhante, Centro (x,y): (542, 177)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (543, 177)
-
-Frame 166:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (461, 246)
+     Tipo: escura, Centro (x,y): (459, 248)
 
 Frame 167:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (457, 245)
 
 Frame 168:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (457, 243)
 
 Frame 169:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 248)
+     Tipo: escura, Centro (x,y): (457, 245)
 
 Frame 170:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (544, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 248)
+     Tipo: escura, Centro (x,y): (457, 246)
 
 Frame 171:
-     Tipo: brilhante, Centro (x,y): (176, 208)
-     Tipo: brilhante, Centro (x,y): (544, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (457, 246)
 
 Frame 172:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (455, 247)
 
 Frame 173:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (455, 247)
+     Tipo: escura, Centro (x,y): (455, 247)
 
 Frame 174:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (455, 247)
+     Tipo: escura, Centro (x,y): (455, 244)
 
 Frame 175:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (453, 244)
 
 Frame 176:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (456, 247)
+     Tipo: escura, Centro (x,y): (456, 244)
 
 Frame 177:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
+     Tipo: brilhante, Centro (x,y): (454, 246)
+     Tipo: escura, Centro (x,y): (455, 245)
 
 Frame 178:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (174, 208)
-     Tipo: escura, Centro (x,y): (542, 177)
+     Tipo: brilhante, Centro (x,y): (454, 246)
+     Tipo: escura, Centro (x,y): (454, 245)
 
 Frame 179:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 178)
+     Tipo: brilhante, Centro (x,y): (454, 246)
+     Tipo: escura, Centro (x,y): (454, 245)
 
 Frame 180:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 207)
-     Tipo: escura, Centro (x,y): (542, 178)
+     Tipo: brilhante, Centro (x,y): (454, 246)
+     Tipo: escura, Centro (x,y): (452, 243)
 
 Frame 181:
-     Tipo: brilhante, Centro (x,y): (174, 208)
-     Tipo: brilhante, Centro (x,y): (542, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
+     Tipo: brilhante, Centro (x,y): (455, 246)
+     Tipo: escura, Centro (x,y): (451, 243)
 
 Frame 182:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (175, 208)
-     Tipo: escura, Centro (x,y): (542, 178)
+     Tipo: brilhante, Centro (x,y): (455, 246)
+     Tipo: escura, Centro (x,y): (456, 244)
 
 Frame 183:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 178)
+     Tipo: brilhante, Centro (x,y): (456, 246)
+     Tipo: escura, Centro (x,y): (457, 245)
 
 Frame 184:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 208)
-     Tipo: escura, Centro (x,y): (543, 178)
+     Tipo: brilhante, Centro (x,y): (456, 246)
+     Tipo: escura, Centro (x,y): (452, 235)
 
 Frame 185:
-     Tipo: brilhante, Centro (x,y): (175, 208)
-     Tipo: brilhante, Centro (x,y): (543, 178)
-     Tipo: escura, Centro (x,y): (176, 209)
-     Tipo: escura, Centro (x,y): (543, 178)
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (450, 235)
+
+Frame 186:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (448, 226)
+
+Frame 187:
+     Tipo: brilhante, Centro (x,y): (445, 230)
+     Tipo: escura, Centro (x,y): (447, 227)
+
+Frame 188:
+     Tipo: brilhante, Centro (x,y): (445, 230)
+     Tipo: escura, Centro (x,y): (446, 230)
+
+Frame 189:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 190:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 229)
+
+Frame 191:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (447, 231)
+
+Frame 192:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 193:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 194:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 195:
+     Tipo: brilhante, Centro (x,y): (446, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 196:
+     Tipo: brilhante, Centro (x,y): (446, 232)
+     Tipo: escura, Centro (x,y): (447, 230)
+
+Frame 197:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (447, 231)
+
+Frame 198:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (446, 232)
+
+Frame 199:
+     Tipo: brilhante, Centro (x,y): (451, 237)
+     Tipo: escura, Centro (x,y): (448, 225)
+
+Frame 200:
+     Tipo: brilhante, Centro (x,y): (451, 237)
+     Tipo: escura, Centro (x,y): (455, 236)
+
+Frame 201:
+     Tipo: brilhante, Centro (x,y): (455, 243)
+
+Frame 202:
+     Tipo: brilhante, Centro (x,y): (455, 243)
+     Tipo: brilhante, Centro (x,y): (418, 232)
+     Tipo: escura, Centro (x,y): (454, 243)
+
+Frame 203:
+     Tipo: brilhante, Centro (x,y): (454, 243)
+     Tipo: escura, Centro (x,y): (455, 243)
+
+Frame 204:
+     Tipo: brilhante, Centro (x,y): (454, 243)
+     Tipo: escura, Centro (x,y): (454, 243)
+
+Frame 205:
+     Tipo: brilhante, Centro (x,y): (455, 244)
+     Tipo: escura, Centro (x,y): (454, 243)
+
+Frame 206:
+     Tipo: brilhante, Centro (x,y): (455, 244)
+     Tipo: escura, Centro (x,y): (454, 244)
+
+Frame 207:
+     Tipo: brilhante, Centro (x,y): (455, 244)
+     Tipo: escura, Centro (x,y): (454, 244)
+
+Frame 208:
+     Tipo: brilhante, Centro (x,y): (455, 244)
+     Tipo: escura, Centro (x,y): (456, 242)
+
+Frame 209:
+     Tipo: brilhante, Centro (x,y): (455, 243)
+     Tipo: escura, Centro (x,y): (455, 243)
+
+Frame 210:
+     Tipo: brilhante, Centro (x,y): (455, 243)
+     Tipo: escura, Centro (x,y): (454, 241)
+
+Frame 212:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (456, 243)
+
+Frame 214:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (455, 243)
+
+Frame 216:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (456, 242)
+
+Frame 218:
+     Tipo: brilhante, Centro (x,y): (456, 243)
+     Tipo: escura, Centro (x,y): (457, 240)
+
+Frame 220:
+     Tipo: brilhante, Centro (x,y): (458, 240)
+     Tipo: brilhante, Centro (x,y): (417, 227)
+     Tipo: escura, Centro (x,y): (455, 240)
+
+Frame 222:
+     Tipo: brilhante, Centro (x,y): (449, 235)
+     Tipo: escura, Centro (x,y): (446, 223)
+
+Frame 224:
+     Tipo: brilhante, Centro (x,y): (444, 228)
+     Tipo: escura, Centro (x,y): (444, 229)
+
+Frame 226:
+     Tipo: brilhante, Centro (x,y): (444, 228)
+     Tipo: escura, Centro (x,y): (444, 227)
+
+Frame 228:
+     Tipo: brilhante, Centro (x,y): (443, 230)
+
+Frame 230:
+     Tipo: escura, Centro (x,y): (414, 229)
+
+Frame 232:
+     Tipo: brilhante, Centro (x,y): (441, 230)
+     Tipo: escura, Centro (x,y): (445, 223)
+
+Frame 234:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (444, 224)
+
+Frame 236:
+     Tipo: brilhante, Centro (x,y): (441, 227)
+     Tipo: escura, Centro (x,y): (444, 225)
+
+Frame 238:
+     Tipo: brilhante, Centro (x,y): (442, 226)
+     Tipo: escura, Centro (x,y): (443, 225)
+
+Frame 240:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (443, 226)
+
+Frame 242:
+     Tipo: brilhante, Centro (x,y): (442, 226)
+     Tipo: escura, Centro (x,y): (443, 225)
+
+Frame 244:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (443, 225)
+
+Frame 246:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (442, 226)
+
+Frame 248:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (442, 224)
+
+Frame 250:
+     Tipo: brilhante, Centro (x,y): (441, 226)
+     Tipo: escura, Centro (x,y): (443, 224)
+
+Frame 253:
+     Tipo: brilhante, Centro (x,y): (443, 226)
+     Tipo: escura, Centro (x,y): (444, 226)
+
+Frame 255:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (445, 224)
+
+Frame 257:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (443, 231)
+
+Frame 259:
+     Tipo: brilhante, Centro (x,y): (441, 232)
+     Tipo: escura, Centro (x,y): (443, 230)
+
+Frame 261:
+     Tipo: brilhante, Centro (x,y): (440, 233)
+     Tipo: escura, Centro (x,y): (442, 231)
+
+Frame 263:
+     Tipo: brilhante, Centro (x,y): (441, 233)
+     Tipo: escura, Centro (x,y): (442, 232)
+
+Frame 265:
+     Tipo: brilhante, Centro (x,y): (440, 233)
+     Tipo: escura, Centro (x,y): (443, 231)
+
+Frame 267:
+     Tipo: brilhante, Centro (x,y): (440, 232)
+     Tipo: escura, Centro (x,y): (442, 233)
+
+Frame 269:
+     Tipo: brilhante, Centro (x,y): (441, 233)
+     Tipo: escura, Centro (x,y): (442, 234)
+
+Frame 271:
+     Tipo: brilhante, Centro (x,y): (441, 233)
+     Tipo: escura, Centro (x,y): (441, 232)
+
+Frame 273:
+     Tipo: brilhante, Centro (x,y): (439, 233)
+     Tipo: escura, Centro (x,y): (442, 231)
+
+Frame 275:
+     Tipo: brilhante, Centro (x,y): (440, 232)
+     Tipo: escura, Centro (x,y): (440, 232)
+
+Frame 277:
+     Tipo: brilhante, Centro (x,y): (439, 233)
+     Tipo: escura, Centro (x,y): (441, 231)
+
+Frame 279:
+     Tipo: brilhante, Centro (x,y): (439, 233)
+     Tipo: escura, Centro (x,y): (441, 232)
+
+Frame 281:
+     Tipo: brilhante, Centro (x,y): (440, 234)
+     Tipo: escura, Centro (x,y): (441, 233)
+
+Frame 283:
+     Tipo: brilhante, Centro (x,y): (446, 234)
+     Tipo: escura, Centro (x,y): (442, 232)
+
+Frame 285:
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (447, 234)
+
+Frame 287:
+     Tipo: escura, Centro (x,y): (449, 230)
+
+Frame 289:
+     Tipo: escura, Centro (x,y): (416, 254)
+     Tipo: escura, Centro (x,y): (365, 252)
+
+Frame 291:
+     Tipo: brilhante, Centro (x,y): (407, 245)
+     Tipo: brilhante, Centro (x,y): (441, 232)
+     Tipo: escura, Centro (x,y): (451, 232)
+
+Frame 293:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 295:
+     Tipo: brilhante, Centro (x,y): (444, 230)
+     Tipo: escura, Centro (x,y): (445, 229)
+
+Frame 297:
+     Tipo: brilhante, Centro (x,y): (444, 229)
+     Tipo: escura, Centro (x,y): (444, 229)
+
+Frame 299:
+     Tipo: brilhante, Centro (x,y): (443, 229)
+     Tipo: escura, Centro (x,y): (445, 229)
+
+Frame 301:
+     Tipo: brilhante, Centro (x,y): (441, 229)
+     Tipo: escura, Centro (x,y): (443, 227)
+
+Frame 303:
+     Tipo: brilhante, Centro (x,y): (441, 229)
+     Tipo: escura, Centro (x,y): (442, 227)
+
+Frame 3:
+     Tipo: brilhante, Centro (x,y): (445, 234)
+     Tipo: escura, Centro (x,y): (447, 233)
+
+Frame 5:
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (448, 233)
+
+Frame 7:
+     Tipo: brilhante, Centro (x,y): (447, 234)
+     Tipo: escura, Centro (x,y): (449, 232)
+
+Frame 9:
+     Tipo: brilhante, Centro (x,y): (446, 235)
+     Tipo: escura, Centro (x,y): (447, 233)
+
+Frame 11:
+     Tipo: brilhante, Centro (x,y): (446, 236)
+     Tipo: escura, Centro (x,y): (447, 235)
+
+Frame 13:
+     Tipo: brilhante, Centro (x,y): (446, 235)
+     Tipo: escura, Centro (x,y): (448, 232)
+
+Frame 15:
+     Tipo: brilhante, Centro (x,y): (447, 235)
+     Tipo: escura, Centro (x,y): (449, 232)
+
+Frame 17:
+     Tipo: brilhante, Centro (x,y): (449, 235)
+     Tipo: escura, Centro (x,y): (451, 232)
+
+Frame 19:
+     Tipo: brilhante, Centro (x,y): (450, 234)
+     Tipo: escura, Centro (x,y): (451, 232)
+
+Frame 21:
+     Tipo: brilhante, Centro (x,y): (451, 234)
+     Tipo: escura, Centro (x,y): (451, 233)
+
+Frame 22:
+     Tipo: brilhante, Centro (x,y): (451, 234)
+     Tipo: escura, Centro (x,y): (452, 233)
+
+Frame 23:
+     Tipo: brilhante, Centro (x,y): (450, 234)
+     Tipo: escura, Centro (x,y): (452, 234)
+
+Frame 24:
+     Tipo: brilhante, Centro (x,y): (450, 234)
+     Tipo: escura, Centro (x,y): (451, 234)
+
+Frame 25:
+     Tipo: brilhante, Centro (x,y): (450, 233)
+     Tipo: escura, Centro (x,y): (452, 232)
+
+Frame 26:
+     Tipo: brilhante, Centro (x,y): (450, 233)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 27:
+     Tipo: brilhante, Centro (x,y): (449, 231)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 28:
+     Tipo: brilhante, Centro (x,y): (449, 231)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 29:
+     Tipo: brilhante, Centro (x,y): (449, 232)
+     Tipo: escura, Centro (x,y): (450, 229)
+
+Frame 30:
+     Tipo: brilhante, Centro (x,y): (449, 232)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 31:
+     Tipo: brilhante, Centro (x,y): (448, 231)
+     Tipo: escura, Centro (x,y): (450, 230)
+
+Frame 32:
+     Tipo: brilhante, Centro (x,y): (449, 231)
+     Tipo: escura, Centro (x,y): (450, 229)
+
+Frame 33:
+     Tipo: brilhante, Centro (x,y): (447, 232)
+     Tipo: escura, Centro (x,y): (450, 229)
+
+Frame 34:
+     Tipo: brilhante, Centro (x,y): (447, 232)
+     Tipo: escura, Centro (x,y): (448, 231)
+
+Frame 35:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (448, 231)
+
+Frame 36:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 37:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 230)
+
+Frame 38:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 39:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (446, 230)
+
+Frame 40:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 41:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (444, 230)
+
+Frame 42:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (446, 230)
+
+Frame 43:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (446, 229)
+
+Frame 44:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (444, 231)
+
+Frame 45:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (444, 231)
+
+Frame 46:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 47:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 48:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (444, 230)
+
+Frame 49:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (443, 232)
+
+Frame 50:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (442, 230)
+
+Frame 51:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (444, 229)
+
+Frame 52:
+     Tipo: brilhante, Centro (x,y): (442, 231)
+     Tipo: escura, Centro (x,y): (442, 231)
+
+Frame 53:
+     Tipo: brilhante, Centro (x,y): (442, 232)
+     Tipo: escura, Centro (x,y): (442, 231)
+
+Frame 54:
+     Tipo: brilhante, Centro (x,y): (442, 232)
+     Tipo: escura, Centro (x,y): (443, 230)
+
+Frame 55:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (443, 230)
+
+Frame 56:
+     Tipo: brilhante, Centro (x,y): (443, 231)
+     Tipo: escura, Centro (x,y): (445, 229)
+
+Frame 57:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (445, 229)
+
+Frame 58:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 59:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (445, 230)
+
+Frame 60:
+     Tipo: brilhante, Centro (x,y): (444, 231)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 61:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 62:
+     Tipo: brilhante, Centro (x,y): (444, 232)
+     Tipo: escura, Centro (x,y): (446, 230)
+
+Frame 63:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 229)
+
+Frame 64:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 65:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (446, 231)
+
+Frame 66:
+     Tipo: brilhante, Centro (x,y): (445, 232)
+     Tipo: escura, Centro (x,y): (447, 232)
+
+Frame 67:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (447, 232)
+
+Frame 68:
+     Tipo: brilhante, Centro (x,y): (445, 231)
+     Tipo: escura, Centro (x,y): (445, 231)
+
+Frame 69:
+     Tipo: brilhante, Centro (x,y): (446, 232)
+     Tipo: escura, Centro (x,y): (445, 231)
 

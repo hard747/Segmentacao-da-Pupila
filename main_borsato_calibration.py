@@ -150,7 +150,7 @@ class GerenciadorDispositivos:
 # Esta classe se encarrega de processar os frames da câmera
 # para detectar a posição da banda preta E o tipo de pupila.
 class DetectorFaixa:
-    def __init__(self, tamanho_kernel=5, limiar_contraste=25, min_bright_pixel_val=200, min_pixel_count_for_bright_pupil=5000):
+    def __init__(self, tamanho_kernel=5, limiar_contraste=25, min_bright_pixel_val=200, min_pixel_count_for_bright_pupil=500):
         # Inicializa os parâmetros de detecção.
         self.tamanho_kernel = tamanho_kernel if tamanho_kernel % 2 == 1 else tamanho_kernel + 1
         self.limiar_contraste = limiar_contraste
@@ -169,7 +169,7 @@ class DetectorFaixa:
         # 1. Média os valores de pixels por cada linha para obter um perfil de intensidade.
         Ic = np.mean(frame_imagem.astype(float), axis=1)
         # 2. Convoluciona o perfil com o kernel para encontrar o centro da banda.
-        Iband = convolve1d(Ic, self.kernel, mode='constant', cval=0.0)
+        Iband = convolve1d(Ic, self.kernel, mode='constant', cval=255.0)
 
         # Verificações para lidar com casos sem detecção ou com baixo contraste.
         if len(Iband) < 2 or np.ptp(Iband) < self.limiar_contraste:
@@ -580,7 +580,7 @@ class ControladorSincronizacao:
 
             cv2.putText(frame_para_par_impar, f"FPS: {self.fps_par_exibicao:.1f}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
             cv2.putText(frame_para_par_impar, f"Pupila: {tipo_pupila}", (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 0), 2)
-            #cv2.putText(frame_para_par_impar, f"Pixeis Brilhantes: {metricas['bright_pixel_count']}", (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 0), 2)
+            cv2.putText(frame_para_par_impar, f"Pixeis Brilhantes: {metricas['bright_pixel_count']}", (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 0), 2)
             cv2.imshow('Frames Pares', frame_para_par_impar)
         else:
             self.contador_frames_impares_para_fps += 1
@@ -592,7 +592,7 @@ class ControladorSincronizacao:
 
             cv2.putText(frame_para_par_impar, f"FPS: {self.fps_impar_exibicao:.1f}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
             cv2.putText(frame_para_par_impar, f"Pupila: {tipo_pupila}", (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 0), 2)
-            #cv2.putText(frame_para_par_impar, f"Pixeis Brilhantes: {metricas['bright_pixel_count']}", (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 0), 2)
+            cv2.putText(frame_para_par_impar, f"Pixeis Brilhantes: {metricas['bright_pixel_count']}", (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 0), 2)
             cv2.imshow('Frames Impares', frame_para_par_impar)
 
     def exibir_info_estado(self, frame):
@@ -626,7 +626,7 @@ if __name__ == "__main__":
 
     controlador_sincronizacao = ControladorSincronizacao(gerenciador_dispositivos, detector_faixa, pular_sincronizacao_grossa=True,periodo_mestre_inicial_us=33333) # 30fps
     #controlador_sincronizacao = ControladorSincronizacao(gerenciador_dispositivos, detector_faixa, pular_sincronizacao_grossa=True,periodo_mestre_inicial_us=16666) # 60 fps
-    #controlador_sincronizacao = ControladorSincronizacao(gerenciador_dispositivos, detector_faixa, pular_sincronizacao_grossa=True,periodo_mestre_inicial_us=8333) # 120 fps
+    #controlador_sincronizacao = ControladorSincronizacao(gerenciador_dispositivos, detector_faixaq, pular_sincronizacao_grossa=True,periodo_mestre_inicial_us=8333) # 120 fps
 
     # Registra a função 'liberar' para ser chamada automaticamente ao sair.
     atexit.register(gerenciador_dispositivos.liberar)

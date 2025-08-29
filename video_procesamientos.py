@@ -60,17 +60,18 @@ class PupilTypeClassifier:
 
 class GlintDetector:
     @staticmethod
-    def detect_glints(img_gray, roi_mask=None, is_dark_pupil_frame=False):
+    def detect_glints(img_gray, roi_mask=None, is_dark_pupil_frame=False, max_glints=None):
         if img_gray is None:
             return []
 
         img_to_process = img_gray.copy()
         if roi_mask is not None:
+            # Aplica a máscara ROI para limitar a detecção de glints apenas à região de interesse
             img_to_process = cv2.bitwise_and(img_gray, img_gray, mask=roi_mask)
 
-        min_val, max_val, _, _ = cv2.minMaxLoc(img_to_process)
-        if max_val < 50:
-            return []  # No glints expected
+        min_val, max_val, _, _ = cv2.minMaxLoc(img_to_process, mask=roi_mask if roi_mask is not None else None)
+        if max_val < 50: # Evita processar imagens muito escuras sem brilho significativo
+            return []
 
         # Seleccionar threshold para glints según tipo de pupila
         if is_dark_pupil_frame:
@@ -78,7 +79,7 @@ class GlintDetector:
         else:
             glint_thresh = int(max_val * GLINT_BRIGHTNESS_THRESHOLD_PERCENTAGE_BRIGHT_PUPIL)
 
-        glint_thresh = max(100, min(240, glint_thresh))
+        glint_thresh = max(100, min(240, glint_thresh)) # Garante que o threshold esteja em um intervalo razoável
 
         _, thresh = cv2.threshold(img_to_process, glint_thresh, 255, cv2.THRESH_BINARY)
 
@@ -101,6 +102,11 @@ class GlintDetector:
                             cx = int(M["m10"] / M["m00"])
                             cy = int(M["m01"] / M["m00"])
                             glints.append({'center': (cx, cy), 'area': area, 'circularity': circularity})
+        
+        # Filtrar para obter apenas os N glints mais proeminentes (com maior área)
+        if max_glints is not None and len(glints) > max_glints:
+            glints = sorted(glints, key=lambda x: x['area'], reverse=True)[:max_glints]
+
         return glints
 
 class PupilSegmenter:
@@ -261,8 +267,9 @@ class PupilSegmenter:
         if roi_mask is None or not np.any(roi_mask):
             return None
 
-        glints_escura = GlintDetector.detect_glints(escura_gray, roi_mask, is_dark_pupil_frame=True)
-        glints_brilhante = GlintDetector.detect_glints(brilhante_gray, roi_mask, is_dark_pupil_frame=False)
+        # Passa a roi_mask para o GlintDetector e especifica max_glints
+        glints_escura = GlintDetector.detect_glints(escura_gray, roi_mask, is_dark_pupil_frame=True, max_glints=2)
+        glints_brilhante = GlintDetector.detect_glints(brilhante_gray, roi_mask, is_dark_pupil_frame=False, max_glints=1) # Geralmente 1 glint para pupila brilhante
 
         escura_no_glints = self.remove_glints_from_image(escura_gray, glints_escura)
         brilhante_no_glints = self.remove_glints_from_image(brilhante_gray, glints_brilhante)
@@ -311,10 +318,10 @@ class PupilTrackerApp:
         self.max_frames_buffer = max_frames_buffer
         self.current_display_mode = self.NORMAL
         self.mode_names = {
-            self.NORMAL: "MODO: Normal (segmentación y glints)",
+            self.NORMAL: "MODO: Normal (segmentacao y glints)",
             self.PUPILA_CLARA: "MODO: Somente Frames de Pupila Clara (FILTRADO)",
             self.PUPILA_ESCURA: "MODO: Somente Frames de Pupila Escura (FILTRADO)",
-            self.DIFERENCA_IMAGENS: "MODO: Máscara ROI (Diferença Binarizada - SEM MARCADORES)",
+            self.DIFERENCA_IMAGENS: "MODO: Mascara ROI (Diferença Binarizada - SEM MARCADORES)",
             self.CONTORNO_CLARA: "MODO: Contorno Pupila Clara (FILTRADO)",
             self.CONTORNO_ESCURA: "MODO: Contorno Pupila Escura (FILTRADO)",
         }
@@ -322,6 +329,10 @@ class PupilTrackerApp:
         self.paused = False
         self.frame_to_process = None
         self.segmenter = PupilSegmenter()
+        self.last_roi_mask = None # Armazenar a última ROI calculada
+        self.last_escura_gray = None # Armazenar o último frame escura_gray para detecção de glints
+        self.last_brilhante_gray = None # Armazenar o último frame brilhante_gray para detecção de glints
+
 
     def processar_video_pupilas(self):
         cap = cv2.VideoCapture(self.video_path)
@@ -467,6 +478,11 @@ class PupilTrackerApp:
                     escura_frame_data, brilhante_frame_data, pares_segmentados_count
                 )
                 if segmentation_results:
+                    self.last_roi_mask = segmentation_results['roi_mask']
+                    self.last_escura_gray = segmentation_results['escura_gray']
+                    self.last_brilhante_gray = segmentation_results['brilhante_gray']
+
+
                     for pupil in segmentation_results['pupilas_brillantes']:
                         center = pupil['center']
                         pupil_centers_current_frame['pupilas'].append({
@@ -512,10 +528,13 @@ class PupilTrackerApp:
                     current_frame_to_write = frame_to_display_from_pair.copy()
                     gray = cv2.cvtColor(frame_to_display_from_pair, cv2.COLOR_BGR2GRAY)
                     glints_info = []
+                    # No modo NORMAL, a detecção de glints sem ROI pode ser muito ruidosa se não for um par segmentado.
+                    # Vamos manter o comportamento anterior de desenhar todos os glints detectados se não houver par.
+                    # Se houver par, os glints já vêm do segmentation_results, que já foram filtrados pela ROI.
                     if current_frame_type_for_display == 'escura':
-                        glints_info = GlintDetector.detect_glints(gray, is_dark_pupil_frame=True)
+                        glints_info = GlintDetector.detect_glints(gray, roi_mask=None, is_dark_pupil_frame=True) # Sem ROI aqui, para não afetar o modo normal sem par
                     elif current_frame_type_for_display == 'brilhante':
-                        glints_info = GlintDetector.detect_glints(gray, is_dark_pupil_frame=False)
+                        glints_info = GlintDetector.detect_glints(gray, roi_mask=None, is_dark_pupil_frame=False) # Sem ROI aqui
                     for glint in glints_info:
                         color = (0, 0, 255) if current_frame_type_for_display == 'escura' else (0, 255, 255)
                         radius = 5 if current_frame_type_for_display == 'escura' else 3
@@ -524,12 +543,32 @@ class PupilTrackerApp:
             elif self.current_display_mode == self.PUPILA_CLARA:
                 if current_frame_type_for_display == 'brilhante':
                     current_frame_to_write = frame_to_display_from_pair.copy()
+                    
+                    # Usa a última ROI calculada, se disponível. Se não, usa o frame_gray completo.
+                    glints_info_bright = []
+                    if self.last_brilhante_gray is not None and self.last_roi_mask is not None and np.any(self.last_roi_mask):
+                        glints_info_bright = GlintDetector.detect_glints(self.last_brilhante_gray, roi_mask=self.last_roi_mask, is_dark_pupil_frame=False, max_glints=1)
+                    else: # Fallback se não houver ROI ou par ainda
+                        glints_info_bright = GlintDetector.detect_glints(cv2.cvtColor(current_frame_to_write, cv2.COLOR_BGR2GRAY), is_dark_pupil_frame=False, max_glints=1)
+                    
+                    for glint in glints_info_bright:
+                        cv2.circle(current_frame_to_write, glint['center'], 3, (0, 255, 255), -1) # Glints em amarelo
                 else:
                     current_frame_to_write = None
 
             elif self.current_display_mode == self.PUPILA_ESCURA:
                 if current_frame_type_for_display == 'escura':
                     current_frame_to_write = frame_to_display_from_pair.copy()
+                    
+                    # Usa a última ROI calculada, se disponível. Se não, usa o frame_gray completo.
+                    glints_info_dark = []
+                    if self.last_escura_gray is not None and self.last_roi_mask is not None and np.any(self.last_roi_mask):
+                        glints_info_dark = GlintDetector.detect_glints(self.last_escura_gray, roi_mask=self.last_roi_mask, is_dark_pupil_frame=True, max_glints=2)
+                    else: # Fallback se não houver ROI ou par ainda
+                        glints_info_dark = GlintDetector.detect_glints(cv2.cvtColor(current_frame_to_write, cv2.COLOR_BGR2GRAY), is_dark_pupil_frame=True, max_glints=2)
+                    
+                    for glint in glints_info_dark:
+                        cv2.circle(current_frame_to_write, glint['center'], 5, (0, 0, 255), -1) # Glints em vermelho
                 else:
                     current_frame_to_write = None
 
@@ -617,7 +656,7 @@ class PupilTrackerApp:
         print(f"Dados dos glints salvos em: {output_glints_path}")
 
 def main():
-    video_path_input = 'video_prueba.avi'
+    video_path_input = 'video_prueba3.avi'
     output_video_filename = 'video_pupila_segmentada_con_filtros.avi'
     output_video_path = os.path.join(os.getcwd(), output_video_filename)
 

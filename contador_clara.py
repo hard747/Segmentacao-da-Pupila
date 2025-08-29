@@ -5,7 +5,7 @@ import numpy as np
 # --- Configuración ---
 #VIDEO_PATH = "pupila_video1_30hz.avi" # Asegúrate de que esta ruta sea correcta
 #VIDEO_PATH = "gravacao5.avi" # Asegúrate de que esta ruta sea correcta
-VIDEO_PATH = "grabacion_1753302530.avi" # Asegúrate de que esta ruta sea correcta
+VIDEO_PATH = "video_prueba3.avi" # Asegúrate de que esta ruta sea correcta
 #VIDEO_PATH = "grabacion_prueba.avi"   
 
 # --- Umbrales para la clasificación ---
@@ -70,8 +70,8 @@ def analyze_pupil_states_full_frame_simplified(video_path, min_bright_pixel_val,
         # Mostrar el frame con la información actualizada
         display_frame = frame.copy()
         cv2.putText(display_frame, f"Frame: {total_frames}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
-        #cv2.putText(display_frame, f"Clasificacion: {classification}", (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, color, 2)
-        #cv2.putText(display_frame, f"Píxeles >= {min_bright_pixel_val}: {int(bright_pixels_in_range_count)}", (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 0), 2) # Muestra el conteo de píxeles muy brillantes.
+        cv2.putText(display_frame, f"Clasificacion: {classification}", (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, color, 2)
+        cv2.putText(display_frame, f"Píxeles >= {min_bright_pixel_val}: {int(bright_pixels_in_range_count)}", (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 0), 2) # Muestra el conteo de píxeles muy brillantes.
         
         cv2.imshow('Analizando Video (Clasificacion Mejorada)', display_frame)
 
