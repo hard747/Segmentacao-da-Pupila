@@ -1,0 +1,21 @@
+sequenceDiagram
+    participant Controlador as ControladorSincronizacao
+    participant Detector as DetectorFaixa
+    
+    Controlador->>Detector: processar_frame_e_detectar_pupila(frame)
+    activate Detector
+    
+    Detector->>Detector: Chamar método __analisar_faixa(frame)
+    activate Detector
+    Detector->>Detector: Processa a imagem para encontrar a faixa
+    Detector-->>Detector: Retorna a posição da faixa
+    deactivate Detector
+    
+    Detector->>Detector: Chamar método __analisar_pupila(frame)
+    activate Detector
+    Detector->>Detector: Analisa a região para determinar tipo de pupila
+    Detector-->>Detector: Retorna o tipo de pupila e métricas
+    deactivate Detector
+    
+    Detector->>Controlador: Retorna (posição_faixa, tipo_pupila)
+    deactivate Detector

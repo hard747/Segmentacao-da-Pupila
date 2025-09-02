@@ -1,11 +1,31 @@
 graph TD
-    A[Controlador de Sincronización]
-    B[Gerenciador de Dispositivos]
-    C[Detector de Banda]
-    D[Cámara PS3 Eye]
-    E[Arduino]
-
-    A -- "usa" --> B
-    A -- "usa" --> C
-    B -- "envía comandos seriales" --> E
-    D -- "transmite datos de video" --> B
+    subgraph Sistema de Sincronização de Câmera e Arduino
+        direction LR
+        subgraph Software
+            A[Módulo Principal: main.py] --> B[ControladorSincronizacao]
+            B -- usa --> C[GerenciadorDispositivos]
+            B -- usa --> D[DetectorFaixa]
+            C -- comunica com --> E(Hardware)
+            D -- processa --> F(Frame da Câmera)
+        end
+        subgraph Hardware
+            E[Hardware]
+            E -- porta serial --> G(Arduino)
+            E -- porta USB --> H(Câmera PS3 Eye)
+        end
+    end
+    
+    subgraph Ambiente Externo
+        I[Usuário] --> A
+        J[Drivers de Dispositivos] --> G
+        J --> H
+    end
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#ccf,stroke:#333,stroke-width:2px
+    style D fill:#ddf,stroke:#333,stroke-width:2px
+    style E fill:#fff,stroke:#333,stroke-width:2px,stroke-dasharray: 5,5
+    style F fill:#e9e,stroke:#333,stroke-width:2px
+    style G fill:#f9f,stroke:#333,stroke-width:2px
+    style H fill:#f9f,stroke:#333,stroke-width:2px

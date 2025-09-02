@@ -1,0 +1,23 @@
+sequenceDiagram
+    participant Main as Ponto de Entrada (main.py)
+    participant Gerenciador as GerenciadorDispositivos
+    participant Detector as DetectorFaixa
+    participant Controlador as ControladorSincronizacao
+
+    Main->>Gerenciador: __init__(fps_alvo, duracao_estrobe, ...)
+    activate Gerenciador
+    Gerenciador-->>Main: Retorna instância
+    deactivate Gerenciador
+
+    Main->>Detector: __init__()
+    activate Detector
+    Detector-->>Main: Retorna instância
+    deactivate Detector
+
+    Main->>Controlador: __init__(gerenciador, detector, ...)
+    activate Controlador
+    Controlador-->>Main: Retorna instância
+    deactivate Controlador
+
+    Main->>Main: Registra a função `liberar`
+    Main->>Controlador: executar()

@@ -163,7 +163,7 @@ class DetectorFaixa:
     def detectar_faixa_preta(self, frame_imagem, estado_sincronizacao_atual, ESTADO_SINCRONIZACAO_MOVENDO_FAIXA):
         # Processa um frame da câmera para encontrar a banda preta.
         # A lógica se baseia na convolução unidimensional do perfil de intensidade da imagem.
-        if frame_imagem.ndim != 2:
+        if frame_imagem.ndim != 2: #convierte uma imagem de color a cinza a gray scale
             frame_imagem = cv2.cvtColor(frame_imagem, cv2.COLOR_BGR2GRAY)
 
         # 1. Média os valores de pixels por cada linha para obter um perfil de intensidade.

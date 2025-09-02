@@ -1,0 +1,8 @@
+graph TD
+    A[Início] --> B(Receber o frame de imagem);
+    B --> C(Converter o frame para tons de cinza);
+    C --> D(Calcular a integral horizontal <br/>da imagem);
+    D --> E(Encontrar o valor mínimo <br/>no vetor da integral);
+    E --> F(Determinar a posição da faixa preta);
+    F --> G(Retornar a posição);
+    G --> H[Fim];

@@ -1,57 +1,56 @@
 sequenceDiagram
-    participant U as Usuário
-    participant CS as ControladorSincronizacao
-    participant GD as GerenciadorDispositivos
-    participant DF as DetectorFaixa
-    participant CP3E as Câmera PS3 Eye
-    participant A as Arduino
+    participant Main as Ponto de Entrada (main.py)
+    participant Gerenciador as GerenciadorDispositivos
+    participant Detector as DetectorFaixa
+    participant Controlador as ControladorSincronizacao
+    participant Arduino
+    participant Camera
+    participant Usuario
 
-    activate U
-    U->>CS: iniciar programa
-    deactivate U
+    Main->>Gerenciador: Cria uma instância
+    activate Gerenciador
+    Gerenciador-->>Main: Retorna a instância
+    deactivate Gerenciador
 
-    activate CS
-    CS->>GD: iniciar_camera_e_serial()
-    activate GD
-    GD->>CP3E: abrir()
-    GD->>A: iniciar_serial()
-    CP3E-->>GD: ok
-    A-->>GD: ok
-    GD-->>CS: ok
-    deactivate GD
+    Main->>Detector: Cria uma instância
+    activate Detector
+    Detector-->>Main: Retorna a instância
+    deactivate Detector
+
+    Main->>Controlador: Cria uma instância (passando Gerenciador e Detector)
+    activate Controlador
+    Controlador-->>Main: Retorna a instância
+    deactivate Controlador
+
+    Main->>Controlador: Inicia a execução (executar())
+    activate Controlador
     
-    loop Loop Principal (Processamento de Frames)
-        activate CS
-        CS->>GD: capturar_frame()
-        activate GD
-        GD->>CP3E: read()
-        CP3E-->>GD: frame
-        GD-->>CS: frame
-        deactivate GD
+    loop Loop Principal de Sincronização
+        Controlador->>Arduino: Envia comando de sincronização
+        activate Arduino
+        Arduino->>Arduino: Sincroniza relógio interno
+        Arduino-->>Controlador: Envia feedback de sincronização
+        deactivate Arduino
         
-        CS->>DF: detectar_faixa_iluminacao(frame)
-        activate DF
-        DF-->>CS: resultado_detecção
-        deactivate DF
+        Controlador->>Camera: Pede um novo frame
+        activate Camera
+        Camera-->>Controlador: Retorna o frame da imagem
+        deactivate Camera
         
-        alt Se for necessário ajustar período
-            CS->>GD: enviar_comando("M...")
-            activate GD
-            GD->>A: enviar_comando_serial()
-            A-->>GD: ok
-            deactivate GD
-        end
+        Controlador->>Detector: Processa o frame (processar_frame_e_detectar_pupila())
+        activate Detector
+        Detector-->>Controlador: Retorna posição da faixa e tipo de pupila
+        deactivate Detector
+
+        Controlador->>Controlador: Calcula desvio de tempo e ajusta sincronização
         
-        CS->>CS: processar_estado()
+        Controlador->>Usuario: Exibe frames e informações (e.g., FPS)
     end
-    
-    activate U
-    U->>CS: "q"
-    deactivate U
-    
-    CS->>GD: liberar()
-    activate GD
-    GD->>CP3E: liberar()
-    GD->>A: fechar_serial()
-    deactivate GD
-    deactivate CS
+
+    Controlador->>Main: Finaliza execução
+    deactivate Controlador
+
+    Main->>Gerenciador: Libera recursos (atexit.register)
+    Gerenciador->>Arduino: Fecha a porta serial
+    Gerenciador->>Camera: Libera a câmera
+    Gerenciador-->>Main: Confirma liberação

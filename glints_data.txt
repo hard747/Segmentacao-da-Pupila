@@ -1,67 +1,279 @@
 Dados dos Glints Detectados:
+Frame 4:
+     Tipo: glint_brilhante, Centro (x,y): (192, 215)
+
+Frame 17:
+     Tipo: glint_brilhante, Centro (x,y): (193, 218)
+     Tipo: glint_brilhante, Centro (x,y): (183, 212)
+
+Frame 23:
+     Tipo: glint_brilhante, Centro (x,y): (184, 220)
+     Tipo: glint_brilhante, Centro (x,y): (174, 214)
+
+Frame 160:
+     Tipo: glint_brilhante, Centro (x,y): (198, 228)
+     Tipo: glint_escura, Centro (x,y): (193, 228)
+
+Frame 166:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 171:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
 Frame 172:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
 Frame 173:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
-Frame 173:
+Frame 174:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 175:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 176:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 177:
+     Tipo: glint_brilhante, Centro (x,y): (207, 235)
+
+Frame 179:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 180:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 181:
+     Tipo: glint_brilhante, Centro (x,y): (209, 236)
+
+Frame 182:
+     Tipo: glint_brilhante, Centro (x,y): (209, 236)
+
+Frame 183:
+     Tipo: glint_brilhante, Centro (x,y): (208, 236)
+
+Frame 185:
+     Tipo: glint_brilhante, Centro (x,y): (209, 237)
+
+Frame 221:
+     Tipo: glint_brilhante, Centro (x,y): (198, 243)
+     Tipo: glint_brilhante, Centro (x,y): (188, 235)
+
+Frame 252:
+     Tipo: glint_brilhante, Centro (x,y): (192, 236)
+     Tipo: glint_escura, Centro (x,y): (189, 237)
+
+Frame 18:
+     Tipo: glint_brilhante, Centro (x,y): (193, 218)
+     Tipo: glint_brilhante, Centro (x,y): (183, 212)
+
+Frame 54:
+     Tipo: glint_escura, Centro (x,y): (195, 229)
+
+Frame 166:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 167:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 172:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
 Frame 173:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
-Frame 173:
+Frame 174:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 175:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 176:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 177:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 178:
+     Tipo: glint_brilhante, Centro (x,y): (207, 235)
+
+Frame 179:
+     Tipo: glint_brilhante, Centro (x,y): (207, 235)
+
+Frame 181:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 182:
+     Tipo: glint_brilhante, Centro (x,y): (209, 236)
+
+Frame 183:
+     Tipo: glint_brilhante, Centro (x,y): (209, 236)
+
+Frame 186:
+     Tipo: glint_brilhante, Centro (x,y): (209, 237)
+
+Frame 187:
+     Tipo: glint_brilhante, Centro (x,y): (209, 237)
+
+Frame 188:
+     Tipo: glint_brilhante, Centro (x,y): (210, 238)
+
+Frame 221:
+     Tipo: glint_brilhante, Centro (x,y): (199, 242)
+
+Frame 222:
+     Tipo: glint_brilhante, Centro (x,y): (198, 243)
+     Tipo: glint_brilhante, Centro (x,y): (188, 235)
+
+Frame 6:
+     Tipo: glint_brilhante, Centro (x,y): (190, 221)
+     Tipo: glint_brilhante, Centro (x,y): (180, 215)
+
+Frame 18:
+     Tipo: glint_brilhante, Centro (x,y): (193, 218)
+     Tipo: glint_brilhante, Centro (x,y): (183, 212)
+
+Frame 54:
+     Tipo: glint_escura, Centro (x,y): (196, 229)
+
+Frame 168:
+     Tipo: glint_brilhante, Centro (x,y): (207, 235)
+     Tipo: glint_brilhante, Centro (x,y): (200, 229)
+     Tipo: glint_escura, Centro (x,y): (193, 229)
+
+Frame 172:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 174:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 176:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 178:
+     Tipo: glint_brilhante, Centro (x,y): (207, 235)
+
+Frame 180:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 182:
+     Tipo: glint_brilhante, Centro (x,y): (209, 236)
+     Tipo: glint_brilhante, Centro (x,y): (200, 229)
+
+Frame 184:
+     Tipo: glint_brilhante, Centro (x,y): (208, 236)
+
+Frame 186:
+     Tipo: glint_brilhante, Centro (x,y): (209, 237)
+
+Frame 188:
+     Tipo: glint_brilhante, Centro (x,y): (210, 238)
+
+Frame 221:
+     Tipo: glint_brilhante, Centro (x,y): (199, 242)
+
+Frame 167:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 172:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
 Frame 173:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
-Frame 173:
+Frame 174:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 175:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 176:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 177:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 178:
+     Tipo: glint_brilhante, Centro (x,y): (207, 235)
+
+Frame 179:
+     Tipo: glint_brilhante, Centro (x,y): (207, 235)
+
+Frame 180:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 181:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+
+Frame 182:
+     Tipo: glint_brilhante, Centro (x,y): (209, 236)
+
+Frame 183:
+     Tipo: glint_brilhante, Centro (x,y): (209, 236)
+
+Frame 186:
+     Tipo: glint_brilhante, Centro (x,y): (209, 237)
+
+Frame 188:
+     Tipo: glint_brilhante, Centro (x,y): (210, 238)
+
+Frame 221:
+     Tipo: glint_brilhante, Centro (x,y): (199, 242)
+
+Frame 11:
+     Tipo: glint_brilhante, Centro (x,y): (192, 217)
+     Tipo: glint_brilhante, Centro (x,y): (181, 212)
+     Tipo: glint_escura, Centro (x,y): (177, 210)
+
+Frame 18:
+     Tipo: glint_brilhante, Centro (x,y): (193, 218)
+     Tipo: glint_brilhante, Centro (x,y): (183, 212)
+
+Frame 54:
+     Tipo: glint_escura, Centro (x,y): (195, 229)
+
+Frame 167:
+     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+     Tipo: glint_brilhante, Centro (x,y): (200, 229)
+     Tipo: glint_escura, Centro (x,y): (193, 229)
+
+Frame 172:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
 Frame 173:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
-Frame 173:
+Frame 174:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
-Frame 173:
+Frame 175:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
-Frame 173:
+Frame 176:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
-Frame 173:
+Frame 177:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
-Frame 173:
+Frame 178:
+     Tipo: glint_brilhante, Centro (x,y): (207, 235)
+
+Frame 179:
+     Tipo: glint_brilhante, Centro (x,y): (207, 235)
+
+Frame 180:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
-Frame 173:
+Frame 181:
      Tipo: glint_brilhante, Centro (x,y): (208, 235)
 
-Frame 173:
-     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+Frame 182:
+     Tipo: glint_brilhante, Centro (x,y): (209, 236)
 
-Frame 173:
-     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+Frame 183:
+     Tipo: glint_brilhante, Centro (x,y): (209, 236)
 
-Frame 173:
-     Tipo: glint_brilhante, Centro (x,y): (208, 235)
-
-Frame 173:
-     Tipo: glint_brilhante, Centro (x,y): (208, 235)
-
-Frame 173:
-     Tipo: glint_brilhante, Centro (x,y): (208, 235)
-
-Frame 173:
-     Tipo: glint_brilhante, Centro (x,y): (208, 235)
-
-Frame 173:
-     Tipo: glint_brilhante, Centro (x,y): (208, 235)
-
-Frame 173:
-     Tipo: glint_brilhante, Centro (x,y): (208, 235)
+Frame 184:
+     Tipo: glint_brilhante, Centro (x,y): (208, 236)
 

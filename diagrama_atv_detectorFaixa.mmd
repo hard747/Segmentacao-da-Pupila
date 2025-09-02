@@ -1,0 +1,11 @@
+graph TD
+    A[Início] --> B(Receber o frame de imagem);
+    B --> C(Analisar o frame para encontrar a faixa preta);
+    C --> D(Calcular a posição vertical da faixa);
+    D --> E(Analisar o frame para encontrar a pupila);
+    E --> F{Pupila é clara ou escura?};
+    F -- Pupila clara --> G[Definir tipo como 'clara'];
+    F -- Pupila escura --> H[Definir tipo como 'escura'];
+    G --> I(Retornar a posição da faixa e o tipo da pupila);
+    H --> I;
+    I --> J[Fim];

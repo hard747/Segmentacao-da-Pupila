@@ -1,0 +1,39 @@
+sequenceDiagram
+    participant Controlador as ControladorSincronizacao
+    participant Gerenciador as GerenciadorDispositivos
+    participant Detector as DetectorFaixa
+    participant Arduino
+    participant Camera
+
+    Controlador->>Arduino: Sincronização Grossa ou Fina
+    activate Arduino
+    Arduino-->>Controlador: Confirmação de tempo
+    deactivate Arduino
+
+    loop Loop Principal
+        Controlador->>Gerenciador: ler_frame()
+        activate Gerenciador
+        Gerenciador->>Camera: Captura de frame
+        activate Camera
+        Camera-->>Gerenciador: Retorna frame
+        deactivate Camera
+        Gerenciador-->>Controlador: Retorna frame
+        deactivate Gerenciador
+
+        Controlador->>Detector: processar_frame_e_detectar_pupila(frame)
+        activate Detector
+        Detector->>Detector: Analisa faixa
+        Detector->>Detector: Analisa pupila
+        Detector-->>Controlador: Retorna posição da faixa e tipo de pupila
+        deactivate Detector
+
+        Controlador->>Controlador: Calcula ajuste de tempo
+        Controlador->>Gerenciador: enviar_comando_arduino(comando de ajuste)
+        activate Gerenciador
+        Gerenciador->>Arduino: Envia comando
+        activate Arduino
+        Arduino-->>Gerenciador: Resposta
+        deactivate Arduino
+        Gerenciador-->>Controlador: Confirmação
+        deactivate Gerenciador
+    end
