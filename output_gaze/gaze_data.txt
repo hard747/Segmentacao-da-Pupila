@@ -1,0 +1,197 @@
+{'timestamp': 1759195096.0713952, 'center_pupil': (664, 457), 'glints': []}
+{'timestamp': 1759195096.1631625, 'center_pupil': (663, 456), 'glints': []}
+{'timestamp': 1759195096.250406, 'center_pupil': (663, 456), 'glints': []}
+{'timestamp': 1759195096.3424518, 'center_pupil': (663, 456), 'glints': []}
+{'timestamp': 1759195096.4337258, 'center_pupil': (663, 455), 'glints': [(1161, 623)]}
+{'timestamp': 1759195096.5217059, 'center_pupil': (662, 455), 'glints': []}
+{'timestamp': 1759195096.6137433, 'center_pupil': (662, 457), 'glints': []}
+{'timestamp': 1759195096.705708, 'center_pupil': (663, 457), 'glints': []}
+{'timestamp': 1759195096.7975683, 'center_pupil': (662, 455), 'glints': [(1182, 643)]}
+{'timestamp': 1759195096.8856835, 'center_pupil': (662, 456), 'glints': [(1168, 625)]}
+{'timestamp': 1759195096.977752, 'center_pupil': (662, 456), 'glints': [(1160, 623)]}
+{'timestamp': 1759195097.0700681, 'center_pupil': (662, 455), 'glints': [(1160, 623)]}
+{'timestamp': 1759195097.157717, 'center_pupil': (663, 456), 'glints': [(1193, 74)]}
+{'timestamp': 1759195097.2497253, 'center_pupil': (665, 461), 'glints': [(1236, 1)]}
+{'timestamp': 1759195097.341768, 'center_pupil': (663, 460), 'glints': [(1233, 1)]}
+{'timestamp': 1759195097.4297578, 'center_pupil': (664, 460), 'glints': []}
+{'timestamp': 1759195097.521775, 'center_pupil': (664, 461), 'glints': [(1233, 3)]}
+{'timestamp': 1759195097.6136885, 'center_pupil': (663, 459), 'glints': []}
+{'timestamp': 1759195097.7017581, 'center_pupil': (663, 460), 'glints': []}
+{'timestamp': 1759195097.7937086, 'center_pupil': (664, 462), 'glints': []}
+{'timestamp': 1759195097.8857648, 'center_pupil': (663, 462), 'glints': []}
+{'timestamp': 1759195097.9779887, 'center_pupil': (662, 462), 'glints': []}
+{'timestamp': 1759195098.0657957, 'center_pupil': (660, 463), 'glints': [(1252, 1)]}
+{'timestamp': 1759195098.1577766, 'center_pupil': (659, 464), 'glints': []}
+{'timestamp': 1759195098.249783, 'center_pupil': (777, 209), 'glints': [(1237, 1)]}
+{'timestamp': 1759195098.3377733, 'center_pupil': (777, 209), 'glints': []}
+{'timestamp': 1759195098.4297836, 'center_pupil': (656, 464), 'glints': []}
+{'timestamp': 1759195098.5217736, 'center_pupil': (770, 208), 'glints': []}
+{'timestamp': 1759195098.6097791, 'center_pupil': (763, 210), 'glints': [(1231, 6)]}
+{'timestamp': 1759195098.7017527, 'center_pupil': (760, 210), 'glints': [(1237, 1)]}
+{'timestamp': 1759195098.7938066, 'center_pupil': (738, 218), 'glints': []}
+{'timestamp': 1759195098.8818114, 'center_pupil': (737, 218), 'glints': [(1251, 0), (1236, 1)]}
+{'timestamp': 1759195098.9739203, 'center_pupil': (762, 209), 'glints': [(1251, 0)]}
+{'timestamp': 1759195099.0658236, 'center_pupil': (752, 210), 'glints': []}
+{'timestamp': 1759195099.1578462, 'center_pupil': (761, 209), 'glints': [(1231, 5), (1251, 0), (1238, 1)]}
+{'timestamp': 1759195099.2456586, 'center_pupil': (748, 210), 'glints': [(1154, 623)]}
+{'timestamp': 1759195099.3378484, 'center_pupil': (743, 219), 'glints': []}
+{'timestamp': 1759195099.4311233, 'center_pupil': (723, 218), 'glints': [(1131, 643), (1185, 61)]}
+{'timestamp': 1759195099.517706, 'center_pupil': (740, 218), 'glints': [(1164, 338), (1242, 0)]}
+{'timestamp': 1759195099.6097262, 'center_pupil': (727, 218), 'glints': []}
+{'timestamp': 1759195099.7020314, 'center_pupil': (756, 209), 'glints': []}
+{'timestamp': 1759195099.7897048, 'center_pupil': (761, 212), 'glints': [(1237, 0)]}
+{'timestamp': 1759195099.881793, 'center_pupil': (723, 219), 'glints': [(1185, 57), (1236, 2)]}
+{'timestamp': 1759195099.9740837, 'center_pupil': (732, 219), 'glints': []}
+{'timestamp': 1759195100.0617797, 'center_pupil': (725, 220), 'glints': [(1120, 616), (1159, 328), (1236, 0)]}
+{'timestamp': 1759195100.1537912, 'center_pupil': (728, 219), 'glints': []}
+{'timestamp': 1759195100.2456346, 'center_pupil': (727, 219), 'glints': []}
+{'timestamp': 1759195100.3337164, 'center_pupil': (723, 219), 'glints': [(1252, 0)]}
+{'timestamp': 1759195100.4261491, 'center_pupil': (725, 219), 'glints': [(1119, 615)]}
+{'timestamp': 1759195100.5176914, 'center_pupil': (721, 220), 'glints': [(1252, 1)]}
+{'timestamp': 1759195100.6098208, 'center_pupil': (727, 220), 'glints': [(1250, 0), (1234, 1)]}
+{'timestamp': 1759195100.6978025, 'center_pupil': (724, 220), 'glints': [(1162, 335), (1235, 2)]}
+{'timestamp': 1759195100.789823, 'center_pupil': (756, 213), 'glints': [(1118, 614), (1143, 274), (1251, 0)]}
+{'timestamp': 1759195100.881831, 'center_pupil': (708, 221), 'glints': [(1154, 623), (1238, 1)]}
+{'timestamp': 1759195100.9697952, 'center_pupil': (725, 220), 'glints': [(1239, 1)]}
+{'timestamp': 1759195101.062104, 'center_pupil': (727, 220), 'glints': [(1137, 643), (1240, 0)]}
+{'timestamp': 1759195101.153746, 'center_pupil': (729, 220), 'glints': []}
+{'timestamp': 1759195101.2418275, 'center_pupil': (727, 218), 'glints': [(1185, 57), (1236, 1)]}
+{'timestamp': 1759195101.3337471, 'center_pupil': (728, 219), 'glints': []}
+{'timestamp': 1759195101.4258046, 'center_pupil': (730, 219), 'glints': [(1186, 57)]}
+{'timestamp': 1759195101.513748, 'center_pupil': (725, 218), 'glints': [(1127, 637)]}
+{'timestamp': 1759195101.6058302, 'center_pupil': (759, 211), 'glints': [(1235, 12), (1238, 1)]}
+{'timestamp': 1759195101.6980999, 'center_pupil': (732, 219), 'glints': []}
+{'timestamp': 1759195101.7897887, 'center_pupil': (732, 219), 'glints': []}
+{'timestamp': 1759195101.877755, 'center_pupil': (736, 219), 'glints': [(1167, 345), (1236, 1)]}
+{'timestamp': 1759195101.969888, 'center_pupil': (734, 220), 'glints': [(1173, 350)]}
+{'timestamp': 1759195102.0618546, 'center_pupil': (758, 213), 'glints': [(1234, 2)]}
+{'timestamp': 1759195102.1498427, 'center_pupil': (761, 213), 'glints': [(1237, 1)]}
+{'timestamp': 1759195102.241768, 'center_pupil': (761, 214), 'glints': [(1236, 1)]}
+{'timestamp': 1759195102.333812, 'center_pupil': (763, 215), 'glints': []}
+{'timestamp': 1759195102.4219058, 'center_pupil': (761, 214), 'glints': [(1240, 1)]}
+{'timestamp': 1759195102.5139556, 'center_pupil': (763, 214), 'glints': []}
+{'timestamp': 1759195102.6061008, 'center_pupil': (765, 215), 'glints': [(1253, 0)]}
+{'timestamp': 1759195102.6938257, 'center_pupil': (760, 215), 'glints': [(1150, 646), (1235, 1)]}
+{'timestamp': 1759195102.785831, 'center_pupil': (763, 214), 'glints': []}
+{'timestamp': 1759195102.877819, 'center_pupil': (760, 214), 'glints': []}
+{'timestamp': 1759195102.9697132, 'center_pupil': (759, 214), 'glints': [(1167, 344)]}
+{'timestamp': 1759195103.0578032, 'center_pupil': (761, 214), 'glints': [(1167, 338), (1237, 2)]}
+{'timestamp': 1759195103.1498172, 'center_pupil': (758, 214), 'glints': [(1234, 3)]}
+{'timestamp': 1759195103.241836, 'center_pupil': (758, 214), 'glints': [(1117, 614), (1237, 1)]}
+{'timestamp': 1759195103.3298085, 'center_pupil': (727, 223), 'glints': []}
+{'timestamp': 1759195103.4218693, 'center_pupil': (725, 224), 'glints': [(1116, 613), (1239, 1)]}
+{'timestamp': 1759195103.513767, 'center_pupil': (751, 214), 'glints': [(1117, 615), (1237, 10)]}
+{'timestamp': 1759195103.601826, 'center_pupil': (769, 216), 'glints': [(1116, 614)]}
+{'timestamp': 1759195103.6937826, 'center_pupil': (749, 214), 'glints': [(1239, 1)]}
+{'timestamp': 1759195103.7859092, 'center_pupil': (728, 221), 'glints': [(1238, 3), (1253, 0)]}
+{'timestamp': 1759195103.873819, 'center_pupil': (754, 211), 'glints': []}
+{'timestamp': 1759195103.9658508, 'center_pupil': (722, 212), 'glints': []}
+{'timestamp': 1759195104.0577445, 'center_pupil': (722, 214), 'glints': [(1251, 0)]}
+{'timestamp': 1759195104.1498122, 'center_pupil': (710, 214), 'glints': [(1150, 297), (1250, 1)]}
+{'timestamp': 1759195104.2378592, 'center_pupil': (713, 217), 'glints': [(1119, 615)]}
+{'timestamp': 1759195104.3297913, 'center_pupil': (731, 215), 'glints': [(1252, 1), (1237, 2)]}
+{'timestamp': 1759195104.421937, 'center_pupil': (716, 214), 'glints': [(1113, 612), (1235, 2)]}
+{'timestamp': 1759195104.509844, 'center_pupil': (718, 213), 'glints': [(1122, 638), (1113, 611), (1184, 59)]}
+{'timestamp': 1759195104.6018107, 'center_pupil': (750, 206), 'glints': [(1124, 647), (1112, 611), (1250, 0), (1240, 1)]}
+{'timestamp': 1759195104.6938975, 'center_pupil': (719, 210), 'glints': [(1237, 1)]}
+{'timestamp': 1759195104.7819128, 'center_pupil': (720, 211), 'glints': [(1236, 2)]}
+{'timestamp': 1759195104.8739274, 'center_pupil': (758, 207), 'glints': [(1116, 613), (1110, 608)]}
+{'timestamp': 1759195104.965864, 'center_pupil': (758, 207), 'glints': [(1124, 647), (1118, 630), (1141, 198)]}
+{'timestamp': 1759195105.053852, 'center_pupil': (720, 217), 'glints': [(1110, 608), (1232, 5)]}
+{'timestamp': 1759195105.145854, 'center_pupil': (716, 216), 'glints': [(1112, 610), (1238, 1), (1230, 1)]}
+{'timestamp': 1759195105.2378845, 'center_pupil': (718, 216), 'glints': [(1112, 611)]}
+{'timestamp': 1759195105.3258836, 'center_pupil': (757, 209), 'glints': [(1125, 648), (1251, 0)]}
+{'timestamp': 1759195105.4178872, 'center_pupil': (722, 215), 'glints': [(1115, 622), (1110, 609), (1239, 1), (1231, 2)]}
+{'timestamp': 1759195105.5098684, 'center_pupil': (719, 215), 'glints': [(1124, 648), (1113, 618), (1112, 610)]}
+{'timestamp': 1759195105.6018267, 'center_pupil': (720, 215), 'glints': [(1124, 648), (1235, 4)]}
+{'timestamp': 1759195105.689906, 'center_pupil': (721, 214), 'glints': []}
+{'timestamp': 1759195105.7818978, 'center_pupil': (717, 214), 'glints': [(1121, 643), (1174, 345)]}
+{'timestamp': 1759195105.873833, 'center_pupil': (723, 215), 'glints': [(1155, 313), (1185, 57), (1237, 1)]}
+{'timestamp': 1759195105.9618788, 'center_pupil': (724, 215), 'glints': [(1117, 631)]}
+{'timestamp': 1759195106.0538857, 'center_pupil': (720, 216), 'glints': [(1117, 630), (1109, 609), (1231, 1)]}
+{'timestamp': 1759195106.1461387, 'center_pupil': (720, 215), 'glints': [(1121, 641), (1231, 4)]}
+{'timestamp': 1759195106.233855, 'center_pupil': (722, 215), 'glints': [(1120, 639), (1236, 1)]}
+{'timestamp': 1759195106.325839, 'center_pupil': (721, 215), 'glints': [(1120, 638), (1116, 629), (1113, 619), (1109, 608)]}
+{'timestamp': 1759195106.4178483, 'center_pupil': (721, 215), 'glints': [(1120, 638), (1187, 363)]}
+{'timestamp': 1759195106.5058787, 'center_pupil': (723, 216), 'glints': [(1120, 640), (1122, 619)]}
+{'timestamp': 1759195106.598078, 'center_pupil': (723, 217), 'glints': [(1119, 638)]}
+{'timestamp': 1759195106.6901214, 'center_pupil': (721, 217), 'glints': [(1117, 633), (1108, 609), (1162, 336)]}
+{'timestamp': 1759195106.7818747, 'center_pupil': (722, 217), 'glints': [(1121, 645), (1233, 3)]}
+{'timestamp': 1759195106.869904, 'center_pupil': (722, 217), 'glints': [(1125, 644), (1109, 607), (1162, 339)]}
+{'timestamp': 1759195106.961834, 'center_pupil': (723, 218), 'glints': [(1114, 611), (1108, 607)]}
+{'timestamp': 1759195107.0538678, 'center_pupil': (729, 218), 'glints': [(1117, 633), (1235, 1)]}
+{'timestamp': 1759195107.1419017, 'center_pupil': (770, 214), 'glints': []}
+{'timestamp': 1759195107.2340488, 'center_pupil': (776, 217), 'glints': [(1114, 628), (1236, 2)]}
+{'timestamp': 1759195107.3260245, 'center_pupil': (770, 217), 'glints': [(1123, 642), (1234, 2)]}
+{'timestamp': 1759195107.4138646, 'center_pupil': (767, 218), 'glints': [(1119, 642), (1147, 288), (1231, 5)]}
+{'timestamp': 1759195107.5058904, 'center_pupil': (767, 217), 'glints': [(1121, 647), (1239, 1)]}
+{'timestamp': 1759195107.5979028, 'center_pupil': (765, 218), 'glints': [(1113, 626), (1175, 353), (1154, 321)]}
+{'timestamp': 1759195107.6858795, 'center_pupil': (780, 220), 'glints': [(1119, 633), (1182, 59)]}
+{'timestamp': 1759195107.7778988, 'center_pupil': (764, 218), 'glints': [(1252, 0)]}
+{'timestamp': 1759195107.8698695, 'center_pupil': (775, 220), 'glints': [(1140, 642), (1155, 623)]}
+{'timestamp': 1759195107.9617999, 'center_pupil': (776, 220), 'glints': [(1236, 1)]}
+{'timestamp': 1759195108.0498316, 'center_pupil': (777, 220), 'glints': [(1175, 354), (1237, 2)]}
+{'timestamp': 1759195108.14189, 'center_pupil': (776, 220), 'glints': []}
+{'timestamp': 1759195108.2338636, 'center_pupil': (761, 218), 'glints': []}
+{'timestamp': 1759195108.3218646, 'center_pupil': (761, 218), 'glints': [(1118, 637)]}
+{'timestamp': 1759195108.4139104, 'center_pupil': (766, 219), 'glints': [(1117, 637)]}
+{'timestamp': 1759195108.5059857, 'center_pupil': (777, 220), 'glints': [(1105, 605)]}
+{'timestamp': 1759195108.5938704, 'center_pupil': (763, 218), 'glints': [(1143, 265), (1136, 244)]}
+{'timestamp': 1759195108.6859398, 'center_pupil': (764, 219), 'glints': [(1236, 2)]}
+{'timestamp': 1759195108.777925, 'center_pupil': (763, 221), 'glints': [(1117, 634), (1155, 623)]}
+{'timestamp': 1759195108.8658562, 'center_pupil': (767, 220), 'glints': [(1122, 647)]}
+{'timestamp': 1759195108.9579706, 'center_pupil': (778, 221), 'glints': []}
+{'timestamp': 1759195109.0498676, 'center_pupil': (767, 220), 'glints': [(1251, 0), (1238, 1)]}
+{'timestamp': 1759195109.1418192, 'center_pupil': (763, 220), 'glints': []}
+{'timestamp': 1759195109.2299662, 'center_pupil': (764, 220), 'glints': [(1230, 7), (1235, 1)]}
+{'timestamp': 1759195109.3218837, 'center_pupil': (758, 220), 'glints': []}
+{'timestamp': 1759195109.4139583, 'center_pupil': (775, 222), 'glints': [(1117, 636), (1115, 628), (1146, 279), (1236, 2)]}
+{'timestamp': 1759195109.5019684, 'center_pupil': (776, 224), 'glints': [(1117, 634), (1160, 330)]}
+{'timestamp': 1759195109.5939047, 'center_pupil': (758, 220), 'glints': [(1236, 1)]}
+{'timestamp': 1759195109.6858468, 'center_pupil': (778, 223), 'glints': [(1121, 645), (1118, 638), (1114, 628)]}
+{'timestamp': 1759195109.7739446, 'center_pupil': (774, 221), 'glints': [(1185, 63), (1232, 2)]}
+{'timestamp': 1759195109.865886, 'center_pupil': (776, 222), 'glints': []}
+{'timestamp': 1759195109.9579062, 'center_pupil': (775, 223), 'glints': [(1121, 648)]}
+{'timestamp': 1759195110.0459197, 'center_pupil': (776, 224), 'glints': [(1113, 626)]}
+{'timestamp': 1759195110.13793, 'center_pupil': (762, 221), 'glints': [(1121, 647), (1118, 635), (1111, 620)]}
+{'timestamp': 1759195110.2299118, 'center_pupil': (775, 223), 'glints': []}
+{'timestamp': 1759195110.3178625, 'center_pupil': (775, 224), 'glints': [(1120, 643)]}
+{'timestamp': 1759195110.4099236, 'center_pupil': (755, 221), 'glints': []}
+{'timestamp': 1759195110.501865, 'center_pupil': (757, 221), 'glints': []}
+{'timestamp': 1759195110.594011, 'center_pupil': (774, 224), 'glints': [(1121, 647), (1167, 345), (1183, 60)]}
+{'timestamp': 1759195110.68194, 'center_pupil': (755, 221), 'glints': [(1106, 606), (1236, 1)]}
+{'timestamp': 1759195110.7739193, 'center_pupil': (772, 224), 'glints': [(1119, 643), (1251, 1)]}
+{'timestamp': 1759195110.865884, 'center_pupil': (753, 221), 'glints': []}
+{'timestamp': 1759195110.953918, 'center_pupil': (773, 224), 'glints': [(1120, 645), (1117, 613), (1106, 606), (1230, 2)]}
+{'timestamp': 1759195111.045893, 'center_pupil': (777, 224), 'glints': [(1233, 1)]}
+{'timestamp': 1759195111.13784, 'center_pupil': (770, 223), 'glints': [(1118, 638)]}
+{'timestamp': 1759195111.225953, 'center_pupil': (757, 222), 'glints': [(1121, 646), (1117, 637)]}
+{'timestamp': 1759195111.3178215, 'center_pupil': (776, 224), 'glints': [(1251, 0)]}
+{'timestamp': 1759195111.4099154, 'center_pupil': (753, 222), 'glints': [(1120, 644), (1237, 2)]}
+{'timestamp': 1759195111.49789, 'center_pupil': (774, 225), 'glints': [(1118, 640), (1115, 632), (1113, 627), (1172, 342)]}
+{'timestamp': 1759195111.590007, 'center_pupil': (751, 221), 'glints': [(1121, 646), (1239, 1)]}
+{'timestamp': 1759195111.6819305, 'center_pupil': (739, 229), 'glints': [(1119, 643), (1235, 2)]}
+{'timestamp': 1759195111.7739153, 'center_pupil': (751, 222), 'glints': [(1122, 648), (1118, 638)]}
+{'timestamp': 1759195111.8619251, 'center_pupil': (772, 225), 'glints': [(1156, 643)]}
+{'timestamp': 1759195111.9539537, 'center_pupil': (771, 225), 'glints': [(1119, 637), (1116, 633)]}
+{'timestamp': 1759195112.0458848, 'center_pupil': (768, 224), 'glints': [(1121, 648), (1107, 607), (1237, 1)]}
+{'timestamp': 1759195112.1341171, 'center_pupil': (748, 222), 'glints': [(1121, 647), (1119, 643)]}
+{'timestamp': 1759195112.2259278, 'center_pupil': (732, 230), 'glints': []}
+{'timestamp': 1759195112.3179498, 'center_pupil': (766, 225), 'glints': [(1127, 634), (1114, 627), (1178, 355)]}
+{'timestamp': 1759195112.4058871, 'center_pupil': (732, 231), 'glints': [(1124, 635)]}
+{'timestamp': 1759195112.497919, 'center_pupil': (763, 226), 'glints': [(1118, 633), (1176, 349)]}
+{'timestamp': 1759195112.589892, 'center_pupil': (762, 225), 'glints': [(1147, 645), (1123, 633)]}
+{'timestamp': 1759195112.6779542, 'center_pupil': (739, 224), 'glints': [(1121, 646), (1117, 637)]}
+{'timestamp': 1759195112.7699146, 'center_pupil': (763, 225), 'glints': [(1118, 639)]}
+{'timestamp': 1759195112.8620765, 'center_pupil': (741, 223), 'glints': [(1119, 643), (1116, 632), (1248, 1)]}
+{'timestamp': 1759195112.9539487, 'center_pupil': (741, 223), 'glints': [(1118, 638)]}
+{'timestamp': 1759195113.0419095, 'center_pupil': (741, 222), 'glints': [(1119, 641)]}
+{'timestamp': 1759195113.1339173, 'center_pupil': (766, 226), 'glints': []}
+{'timestamp': 1759195113.225943, 'center_pupil': (764, 226), 'glints': [(1233, 13), (1250, 0)]}
+{'timestamp': 1759195113.3140202, 'center_pupil': (740, 223), 'glints': [(1118, 639), (1185, 356)]}
+{'timestamp': 1759195113.4059927, 'center_pupil': (739, 224), 'glints': [(1120, 645), (1108, 608), (1235, 1)]}
+{'timestamp': 1759195113.4979494, 'center_pupil': (732, 231), 'glints': [(1119, 641)]}
+{'timestamp': 1759195113.58595, 'center_pupil': (732, 231), 'glints': []}
+{'timestamp': 1759195113.6779492, 'center_pupil': (732, 231), 'glints': [(1121, 646), (1106, 606), (1233, 3), (1250, 0)]}
+{'timestamp': 1759195113.7699397, 'center_pupil': (764, 226), 'glints': [(1169, 343)]}
+{'timestamp': 1759195113.857901, 'center_pupil': (730, 231), 'glints': [(1240, 8), (1236, 2)]}

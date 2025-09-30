@@ -4,8 +4,8 @@ import os
 import collections
 import time
 from scipy.optimize import least_squares
+from sklearn.cluster import KMeans
 
-# Constantes globais (ajustar según necesidad)
 MIN_BRIGHT_PIXEL_VALUE = 200
 MIN_PIXEL_COUNT_FOR_CLEAR_PUPIL = 40
 
@@ -18,32 +18,23 @@ GLINT_CIRCULARITY_THRESHOLD = 0.65
 class CircleFitter:
     @staticmethod
     def fit_circle(points):
-        """
-        Ajusta un círculo a un conjunto de puntos 2D usando mínimos cuadrados.
-        """
         if points is None or len(points) < 3:
             return None, None, None
-        
         def residuals(params, x_data, y_data):
             cx, cy, r = params
             return np.sqrt((x_data - cx) ** 2 + (y_data - cy) ** 2) - r
-
         x = points[:, 0]
         y = points[:, 1]
         initial_cx = np.mean(x)
         initial_cy = np.mean(y)
         initial_r = np.mean(np.sqrt((x - initial_cx) ** 2 + (y - initial_cy) ** 2))
-
-        try:
-            result = least_squares(
-                residuals,
-                [initial_cx, initial_cy, initial_r],
-                args=(x, y),
-                bounds=([0, 0, 1], np.inf),
-            )
-            return result.x  # cx, cy, r
-        except Exception:
-            return None, None, None
+        result = least_squares(
+            residuals,
+            [initial_cx, initial_cy, initial_r],
+            args=(x, y),
+            bounds=([0, 0, 1], np.inf),
+        )
+        return result.x
 
 class PupilTypeClassifier:
     @staticmethod
@@ -63,33 +54,24 @@ class GlintDetector:
     def detect_glints(img_gray, roi_mask=None, is_dark_pupil_frame=False, max_glints=None):
         if img_gray is None:
             return []
-
         img_to_process = img_gray.copy()
         if roi_mask is not None:
             # Aplica a máscara ROI para limitar a detecção de glints apenas à região de interesse
             img_to_process = cv2.bitwise_and(img_gray, img_gray, mask=roi_mask)
-
-        min_val, max_val, _, _ = cv2.minMaxLoc(img_to_process, mask=roi_mask if roi_mask is not None else None)
-        if max_val < 50: # Evita processar imagens muito escuras sem brilho significativo
+        min_val, max_val, _, _ = cv2.minMaxLoc(img_to_process)
+        if max_val < 50:
             return []
-
-        # Seleccionar threshold para glints según tipo de pupila
         if is_dark_pupil_frame:
             glint_thresh = int(max_val * GLINT_BRIGHTNESS_THRESHOLD_PERCENTAGE_DARK_PUPIL)
         else:
             glint_thresh = int(max_val * GLINT_BRIGHTNESS_THRESHOLD_PERCENTAGE_BRIGHT_PUPIL)
-
-        glint_thresh = max(100, min(240, glint_thresh)) # Garante que o threshold esteja em um intervalo razoável
-
+        glint_thresh = max(100, min(240, glint_thresh))
         _, thresh = cv2.threshold(img_to_process, glint_thresh, 255, cv2.THRESH_BINARY)
-
         kernel = np.ones((3, 3), np.uint8)
         thresh = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel, iterations=1)
         thresh = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, kernel, iterations=1)
-
         contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         glints = []
-
         for cnt in contours:
             area = cv2.contourArea(cnt)
             if GLINT_MIN_AREA < area < GLINT_MAX_AREA:
@@ -118,13 +100,10 @@ class PupilSegmenter:
         diff = cv2.subtract(brilhante_gray, escura_gray)
         diff_blurred = cv2.GaussianBlur(diff, (9, 9), 0)
         _, roi_mask = cv2.threshold(diff_blurred, 40, 255, cv2.THRESH_BINARY)
-
-        # Morphological processing for ROI refinement
         roi_mask = cv2.morphologyEx(roi_mask, cv2.MORPH_CLOSE, self.kernel_medium, iterations=2)
         roi_mask = cv2.morphologyEx(roi_mask, cv2.MORPH_OPEN, self.kernel_medium, iterations=2)
         roi_mask = cv2.erode(roi_mask, self.kernel_small, iterations=1)
         roi_mask = cv2.dilate(roi_mask, self.kernel_small, iterations=1)
-
         return roi_mask, diff
 
     def remove_glints_from_image(self, img_gray, glints_info):
@@ -132,7 +111,7 @@ class PupilSegmenter:
         for glint in glints_info:
             center = glint['center']
             radius = int(max(2, np.sqrt(glint['area'] / np.pi) * 1.5))
-            cv2.circle(img_no_glints, center, radius, 0, -1)  # Black circle
+            cv2.circle(img_no_glints, center, radius, 0, -1)
         return img_no_glints
 
     def segment_pupil_dark(self, escura_gray_no_glints, roi_mask, frame_original):
@@ -140,52 +119,48 @@ class PupilSegmenter:
         result_img = frame_original.copy()
         pupil_info_list = []
 
-        try:
-            _, thresh_inv = cv2.threshold(escura_gray_no_glints, 50, 255, cv2.THRESH_BINARY_INV)
-            thresh_inv_roi = cv2.bitwise_and(thresh_inv, thresh_inv, mask=roi_mask)
+        _, thresh_inv = cv2.threshold(escura_gray_no_glints, 50, 255, cv2.THRESH_BINARY_INV)
+        thresh_inv_roi = cv2.bitwise_and(thresh_inv, thresh_inv, mask=roi_mask)
 
-            opening = cv2.morphologyEx(thresh_inv_roi, cv2.MORPH_OPEN, self.kernel_small, iterations=2)
-            sure_bg = cv2.dilate(opening, self.kernel_small, iterations=3)
-            dist_transform = cv2.distanceTransform(opening, cv2.DIST_L2, 5)
-            _, sure_fg = cv2.threshold(dist_transform, 0.5 * dist_transform.max(), 255, 0)
-            sure_fg = np.uint8(sure_fg)
+        opening = cv2.morphologyEx(thresh_inv_roi, cv2.MORPH_OPEN, self.kernel_small, iterations=2)
+        sure_bg = cv2.dilate(opening, self.kernel_small, iterations=3)
+        dist_transform = cv2.distanceTransform(opening, cv2.DIST_L2, 5)
+        _, sure_fg = cv2.threshold(dist_transform, 0.5 * dist_transform.max(), 255, 0)
+        sure_fg = np.uint8(sure_fg)
 
-            unknown = cv2.subtract(sure_bg, sure_fg)
-            _, markers = cv2.connectedComponents(sure_fg)
-            markers = markers + 1
-            markers[unknown == 255] = 0
+        unknown = cv2.subtract(sure_bg, sure_fg)
+        _, markers = cv2.connectedComponents(sure_fg)
+        markers = markers + 1
+        markers[unknown == 255] = 0
 
-            if np.max(markers) > 1:
-                markers_final = cv2.watershed(frame_original.copy(), markers.copy())
-                mask_all = np.zeros_like(escura_gray_no_glints)
-                mask_all[markers_final > 1] = 255
-                pupil_mask = mask_all.copy()
+        if np.max(markers) > 1:
+            markers_final = cv2.watershed(frame_original.copy(), markers.copy())
+            mask_all = np.zeros_like(escura_gray_no_glints)
+            mask_all[markers_final > 1] = 255
+            pupil_mask = mask_all.copy()
 
-                contours, _ = cv2.findContours(mask_all, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-                for cnt in contours:
-                    area = cv2.contourArea(cnt)
-                    if 50 < area < 6000:
-                        perimeter = cv2.arcLength(cnt, True)
-                        if perimeter > 0:
-                            circularity = (4 * np.pi * area) / (perimeter ** 2)
-                            if circularity > 0.35:
-                                points = cnt.squeeze()
-                                if points.ndim == 1 or points.shape[0] < 3:
-                                    continue
-                                cx, cy, r = CircleFitter.fit_circle(points)
-                                if cx is not None:
-                                    center = (int(cx), int(cy))
-                                    cv2.drawContours(result_img, [cnt], -1, (255, 0, 0), 2)
-                                    pupil_info_list.append({
-                                        'center': center,
-                                        'radius': r,
-                                        'segmentada': True,
-                                        'contour': cnt,
-                                        'fit_circle': (cx, cy, r)
-                                    })
-        except Exception as e:
-            print(f"Erro ao segmentar pupila escura: {e}")
-
+            contours, _ = cv2.findContours(mask_all, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            for cnt in contours:
+                area = cv2.contourArea(cnt)
+                if 50 < area < 6000:
+                    perimeter = cv2.arcLength(cnt, True)
+                    if perimeter > 0:
+                        circularity = (4 * np.pi * area) / (perimeter ** 2)
+                        if circularity > 0.35:
+                            points = cnt.squeeze()
+                            if points.ndim == 1 or points.shape[0] < 3:
+                                continue
+                            cx, cy, r = CircleFitter.fit_circle(points)
+                            if cx is not None:
+                                center = (int(cx), int(cy))
+                                cv2.drawContours(result_img, [cnt], -1, (255, 0, 0), 2)
+                                pupil_info_list.append({
+                                    'center': center,
+                                    'radius': r,
+                                    'segmentada': True,
+                                    'contour': cnt,
+                                    'fit_circle': (cx, cy, r)
+                                })
         return result_img, pupil_mask, pupil_info_list
 
     def segment_pupil_bright(self, brilhante_gray_no_glints, roi_mask, frame_original):
@@ -193,66 +168,61 @@ class PupilSegmenter:
         result_img = frame_original.copy()
         pupil_info_list = []
 
-        try:
-            roi_no_glints = cv2.bitwise_and(brilhante_gray_no_glints, brilhante_gray_no_glints, mask=roi_mask)
+        roi_no_glints = cv2.bitwise_and(brilhante_gray_no_glints, brilhante_gray_no_glints, mask=roi_mask)
+        min_val, max_val, _, _ = cv2.minMaxLoc(roi_no_glints, mask=roi_mask)
+        threshold_val = 60
+        if max_val > 0:
+            threshold_val = int(max_val * 0.5)
+            threshold_val = max(50, min(200, threshold_val))
 
-            min_val, max_val, _, _ = cv2.minMaxLoc(roi_no_glints, mask=roi_mask)
-            threshold_val = 60
-            if max_val > 0:
-                threshold_val = int(max_val * 0.5)
-                threshold_val = max(50, min(200, threshold_val))
+        _, thresh = cv2.threshold(roi_no_glints, threshold_val, 255, cv2.THRESH_BINARY)
+        thresh = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, self.kernel_small, iterations=1)
+        thresh = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, self.kernel_small, iterations=1)
 
-            _, thresh = cv2.threshold(roi_no_glints, threshold_val, 255, cv2.THRESH_BINARY)
-            thresh = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, self.kernel_small, iterations=1)
-            thresh = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, self.kernel_small, iterations=1)
+        opening = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, self.kernel_small, iterations=2)
+        sure_bg = cv2.dilate(opening, self.kernel_small, iterations=3)
+        dist_transform = cv2.distanceTransform(opening, cv2.DIST_L2, 5)
 
-            opening = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, self.kernel_small, iterations=2)
-            sure_bg = cv2.dilate(opening, self.kernel_small, iterations=3)
-            dist_transform = cv2.distanceTransform(opening, cv2.DIST_L2, 5)
+        dist_max = dist_transform.max()
+        if dist_max > 0:
+            _, sure_fg = cv2.threshold(dist_transform, 0.4 * dist_max, 255, 0)
+        else:
+            sure_fg = np.zeros_like(brilhante_gray_no_glints)
 
-            dist_max = dist_transform.max()
-            if dist_max > 0:
-                _, sure_fg = cv2.threshold(dist_transform, 0.4 * dist_max, 255, 0)
-            else:
-                sure_fg = np.zeros_like(brilhante_gray_no_glints)
+        sure_fg = np.uint8(sure_fg)
+        unknown = cv2.subtract(sure_bg, sure_fg)
+        _, markers = cv2.connectedComponents(sure_fg)
+        markers = markers + 1
+        markers[unknown == 255] = 0
 
-            sure_fg = np.uint8(sure_fg)
-            unknown = cv2.subtract(sure_bg, sure_fg)
-            _, markers = cv2.connectedComponents(sure_fg)
-            markers = markers + 1
-            markers[unknown == 255] = 0
+        if np.max(markers) > 1:
+            markers_final = cv2.watershed(frame_original.copy(), markers.copy())
+            mask_all = np.zeros_like(brilhante_gray_no_glints)
+            mask_all[markers_final > 1] = 255
+            pupil_mask = mask_all.copy()
 
-            if np.max(markers) > 1:
-                markers_final = cv2.watershed(frame_original.copy(), markers.copy())
-                mask_all = np.zeros_like(brilhante_gray_no_glints)
-                mask_all[markers_final > 1] = 255
-                pupil_mask = mask_all.copy()
-
-                contours, _ = cv2.findContours(mask_all, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-                for cnt in contours:
-                    area = cv2.contourArea(cnt)
-                    if 40 < area < 7000:
-                        perimeter = cv2.arcLength(cnt, True)
-                        if perimeter > 0:
-                            circularity = (4 * np.pi * area) / (perimeter ** 2)
-                            if circularity > 0.30:
-                                points = cnt.squeeze()
-                                if points.ndim == 1 or points.shape[0] < 3:
-                                    continue
-                                cx, cy, r = CircleFitter.fit_circle(points)
-                                if cx is not None:
-                                    center = (int(cx), int(cy))
-                                    cv2.drawContours(result_img, [cnt], -1, (0, 255, 0), 2)
-                                    pupil_info_list.append({
-                                        'center': center,
-                                        'radius': r,
-                                        'segmentada': True,
-                                        'contour': cnt,
-                                        'fit_circle': (cx, cy, r)
-                                    })
-        except Exception as e:
-            print(f"Erro ao segmentar pupila brilhante: {e}")
-
+            contours, _ = cv2.findContours(mask_all, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            for cnt in contours:
+                area = cv2.contourArea(cnt)
+                if 40 < area < 7000:
+                    perimeter = cv2.arcLength(cnt, True)
+                    if perimeter > 0:
+                        circularity = (4 * np.pi * area) / (perimeter ** 2)
+                        if circularity > 0.30:
+                            points = cnt.squeeze()
+                            if points.ndim == 1 or points.shape[0] < 3:
+                                continue
+                            cx, cy, r = CircleFitter.fit_circle(points)
+                            if cx is not None:
+                                center = (int(cx), int(cy))
+                                cv2.drawContours(result_img, [cnt], -1, (0, 255, 0), 2)
+                                pupil_info_list.append({
+                                    'center': center,
+                                    'radius': r,
+                                    'segmentada': True,
+                                    'contour': cnt,
+                                    'fit_circle': (cx, cy, r)
+                                })
         return result_img, pupil_mask, pupil_info_list
 
     def segment_pair(self, frame_escura, frame_brilhante, par_idx):
@@ -274,16 +244,12 @@ class PupilSegmenter:
         escura_no_glints = self.remove_glints_from_image(escura_gray, glints_escura)
         brilhante_no_glints = self.remove_glints_from_image(brilhante_gray, glints_brilhante)
 
-        # Segmentar pupilas
         escura_resultado, pupil_mask_escura, pupil_escura_info = self.segment_pupil_dark(
             escura_no_glints, roi_mask, frame_escura
         )
-
         brilhante_resultado, pupil_mask_brilhante, pupil_brilhante_info = self.segment_pupil_bright(
             brilhante_no_glints, roi_mask, frame_brilhante
         )
-
-        # Dibujar glints en imágenes resultantes
         for g in glints_escura:
             cv2.circle(escura_resultado, g['center'], 5, (0, 0, 255), -1)
         for g in glints_brilhante:
@@ -304,6 +270,23 @@ class PupilSegmenter:
             'pupil_mask_brilhante': pupil_mask_brilhante,
         }
 
+
+def cluster_glints_by_eye(glints, n_eyes=2, max_glints_per_eye=2):
+    if not glints:
+        return []
+    coords = np.array([g['center'] for g in glints])
+    if len(coords) <= n_eyes:
+        return glints
+    kmeans = KMeans(n_clusters=n_eyes, n_init=10, random_state=42)
+    xs = coords[:, 0].reshape(-1, 1)
+    labels = kmeans.fit_predict(xs)
+    selected_glints = []
+    for i in range(n_eyes):
+        cluster_glints = [g for g, l in zip(glints, labels) if l == i]
+        cluster_glints = sorted(cluster_glints, key=lambda g: g['area'], reverse=True)
+        selected_glints.extend(cluster_glints[:max_glints_per_eye])
+    return selected_glints
+
 class PupilTrackerApp:
     NORMAL = 1
     PUPILA_CLARA = 2
@@ -311,6 +294,7 @@ class PupilTrackerApp:
     DIFERENCA_IMAGENS = 4
     CONTORNO_CLARA = 5
     CONTORNO_ESCURA = 6
+    GLINTS_SOLO = 7
 
     def __init__(self, video_path, output_video_path, max_frames_buffer=2):
         self.video_path = video_path
@@ -324,6 +308,7 @@ class PupilTrackerApp:
             self.DIFERENCA_IMAGENS: "MODO: Mascara ROI (Diferença Binarizada - SEM MARCADORES)",
             self.CONTORNO_CLARA: "MODO: Contorno Pupila Clara (FILTRADO)",
             self.CONTORNO_ESCURA: "MODO: Contorno Pupila Escura (FILTRADO)",
+            self.GLINTS_SOLO: "MODO: Glints Solo",
         }
         self.loop_video = True
         self.paused = False
@@ -375,6 +360,7 @@ class PupilTrackerApp:
         print("Pressione '4' para modo Máscara ROI (Diferença Binarizada - SEM MARCADORES).")
         print("Pressione '5' para modo Contorno Pupila Clara (FILTRADO).")
         print("Pressione '6' para modo Contorno Pupila Escura (FILTRADO).")
+        print("Pressione '7' para modo Glints Solo (solo glints sobre la imagen original).")
         print("Pressione 'L' para alternar modo de bucle (Loop ON/OFF).")
         print("Pressione 'P' para Pausar/Reproduzir.")
         print("Pressione 'N' para avançar um frame (somente em pausa).")
@@ -407,7 +393,7 @@ class PupilTrackerApp:
                         else:
                             break
                     frame_idx += 1
-            elif key >= ord('1') and key <= ord('6'):
+            elif key >= ord('1') and key <= ord('7'):
                 new_mode = int(chr(key))
                 if new_mode in self.mode_names:
                     self.current_display_mode = new_mode
@@ -497,7 +483,6 @@ class PupilTrackerApp:
                             'center_x': center[0],
                             'center_y': center[1]
                         })
-
                     for glint in segmentation_results['glints_brilhante_frame']:
                         glints_current_frame['glints'].append({
                             'tipo': 'glint_brilhante',
@@ -511,7 +496,15 @@ class PupilTrackerApp:
                             'center_y': glint['center'][1]
                         })
             
-            if self.current_display_mode == self.NORMAL:
+            if self.current_display_mode == self.GLINTS_SOLO:
+                current_frame_to_write = frame_to_display_from_pair.copy()
+                gray = cv2.cvtColor(frame_to_display_from_pair, cv2.COLOR_BGR2GRAY)
+                glints = GlintDetector.detect_glints(gray, is_dark_pupil_frame=True)
+                # Selecciona hasta 2 glints por ojo mediante clusterización por X
+                selected_glints = cluster_glints_by_eye(glints, n_eyes=2, max_glints_per_eye=2)
+                for glint in selected_glints:
+                    cv2.circle(current_frame_to_write, glint['center'], 3, (0, 255, 255), -1)  # amarillo
+            elif self.current_display_mode == self.NORMAL:
                 if process_pair and segmentation_results:
                     if current_frame_type_for_display == 'brilhante':
                         current_frame_to_write = segmentation_results['resultado_brilhante_borda']
@@ -519,7 +512,6 @@ class PupilTrackerApp:
                         current_frame_to_write = segmentation_results['resultado_escura_borda']
                     else:
                         current_frame_to_write = frame_to_display_from_pair.copy()
-
                     if current_frame_to_write is not None:
                         for pupil in pupil_centers_current_frame['pupilas']:
                             color = (255, 0, 255) if pupil['tipo'] == 'brilhante' else (0, 0, 255)
@@ -537,9 +529,8 @@ class PupilTrackerApp:
                         glints_info = GlintDetector.detect_glints(gray, roi_mask=None, is_dark_pupil_frame=False) # Sem ROI aqui
                     for glint in glints_info:
                         color = (0, 0, 255) if current_frame_type_for_display == 'escura' else (0, 255, 255)
-                        radius = 5 if current_frame_type_for_display == 'escura' else 3
+                        radius = 3
                         cv2.circle(current_frame_to_write, glint['center'], radius, color, -1)
-
             elif self.current_display_mode == self.PUPILA_CLARA:
                 if current_frame_type_for_display == 'brilhante':
                     current_frame_to_write = frame_to_display_from_pair.copy()
@@ -555,7 +546,6 @@ class PupilTrackerApp:
                         cv2.circle(current_frame_to_write, glint['center'], 3, (0, 255, 255), -1) # Glints em amarelo
                 else:
                     current_frame_to_write = None
-
             elif self.current_display_mode == self.PUPILA_ESCURA:
                 if current_frame_type_for_display == 'escura':
                     current_frame_to_write = frame_to_display_from_pair.copy()
@@ -571,14 +561,12 @@ class PupilTrackerApp:
                         cv2.circle(current_frame_to_write, glint['center'], 5, (0, 0, 255), -1) # Glints em vermelho
                 else:
                     current_frame_to_write = None
-
             elif self.current_display_mode == self.DIFERENCA_IMAGENS:
                 if process_pair and segmentation_results and segmentation_results['roi_mask'] is not None and np.any(segmentation_results['roi_mask']):
                     roi_mask = segmentation_results['roi_mask']
                     current_frame_to_write = cv2.cvtColor(roi_mask, cv2.COLOR_GRAY2BGR)
                 else:
                     current_frame_to_write = None
-
             elif self.current_display_mode == self.CONTORNO_CLARA:
                 if current_frame_type_for_display == 'brilhante' and segmentation_results and segmentation_results['pupilas_brillantes']:
                     current_frame_to_write = frame_to_display_from_pair.copy()
@@ -591,7 +579,6 @@ class PupilTrackerApp:
                             cv2.circle(current_frame_to_write, center, 3, (0, 255, 0), -1)
                 else:
                     current_frame_to_write = None
-
             elif self.current_display_mode == self.CONTORNO_ESCURA:
                 if current_frame_type_for_display == 'escura' and segmentation_results and segmentation_results['pupilas_escuras']:
                     current_frame_to_write = frame_to_display_from_pair.copy()
@@ -620,7 +607,7 @@ class PupilTrackerApp:
 
             cv2.putText(current_frame_to_write, status_text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7,
                         (255, 255, 255), 2, cv2.LINE_AA)
-            cv2.putText(current_frame_to_write, "Q: Sair | 1-6: Mudar Modo | L: Loop | P: Pausa | N: Avancar Frame",
+            cv2.putText(current_frame_to_write, "Q: Sair | 1-7: Mudar Modo | L: Loop | P: Pausa | N: Avancar Frame",
                         (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1, cv2.LINE_AA)
 
             cv2.imshow("Pupil Segmentation", current_frame_to_write)
