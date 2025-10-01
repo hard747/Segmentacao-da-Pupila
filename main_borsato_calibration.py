@@ -618,14 +618,14 @@ class ControladorSincronizacao:
 if __name__ == "__main__":
     # Cria instâncias das classes.
 
-    gerenciador_dispositivos = GerenciadorDispositivos(fps_alvo=30, duracao_estrobe=16000,pre_atraso=8000) #30fps
-    #gerenciador_dispositivos = GerenciadorDispositivos(fps_alvo=60, duracao_estrobe=8000,pre_atraso=4000) # 60fps
+    #gerenciador_dispositivos = GerenciadorDispositivos(fps_alvo=30, duracao_estrobe=16000,pre_atraso=8000) #30fps
+    gerenciador_dispositivos = GerenciadorDispositivos(fps_alvo=60, duracao_estrobe=8000,pre_atraso=4000) # 60fps
     #gerenciador_dispositivos = GerenciadorDispositivos(fps_alvo=120, duracao_estrobe=4000,pre_atraso=2000) # 120fps
 
     detector_faixa = DetectorFaixa()
 
-    controlador_sincronizacao = ControladorSincronizacao(gerenciador_dispositivos, detector_faixa, pular_sincronizacao_grossa=True,periodo_mestre_inicial_us=33333) # 30fps
-    #controlador_sincronizacao = ControladorSincronizacao(gerenciador_dispositivos, detector_faixa, pular_sincronizacao_grossa=True,periodo_mestre_inicial_us=16666) # 60 fps
+    #controlador_sincronizacao = ControladorSincronizacao(gerenciador_dispositivos, detector_faixa, pular_sincronizacao_grossa=True,periodo_mestre_inicial_us=33333) # 30fps
+    controlador_sincronizacao = ControladorSincronizacao(gerenciador_dispositivos, detector_faixa, pular_sincronizacao_grossa=True,periodo_mestre_inicial_us=16666) # 60 fps
     #controlador_sincronizacao = ControladorSincronizacao(gerenciador_dispositivos, detector_faixaq, pular_sincronizacao_grossa=True,periodo_mestre_inicial_us=8333) # 120 fps
 
     # Registra a função 'liberar' para ser chamada automaticamente ao sair.
